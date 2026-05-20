@@ -1,0 +1,17 @@
+<a href="themes/{{theme_slug}}.html" class="theme-card" style="--card-accent: {{accent_color}}" data-urls='{{urls_json}}'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">{{theme_name}}</h3>
+            <span class="theme-card-badge">{{task_count_text}}</span>
+        </div>
+        <p class="theme-card-subtags">{{subtag_list}}</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>{{subtag_count_text}}</span>
+                <span>Рейтинг: {{min_rating}} – {{max_rating}}</span>
+            </div>
+            <span class="theme-card-avg {{avg_rating_class}}">≈{{avg_rating}}</span>
+        </div>
+    </div>
+</a>

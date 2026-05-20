@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+            </a>
+
+            <!-- CF Handle Widget -->
+            <div class="handle-widget">
+                <div class="handle-input-wrap">
+                    <span class="handle-icon">⌨</span>
+                    <input
+                        type="text"
+                        id="handleInput"
+                        class="handle-input"
+                        placeholder="Codeforces handle"
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+                    <button class="handle-btn" id="handleSubmit" title="Загрузить">→</button>
+                    <button class="handle-clear" id="handleClear" title="Сменить handle">✕</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="../index.html">Главная</a>
+                <span class="breadcrumb-sep">→</span>
+                <span class="breadcrumb-current">Структуры данных</span>
+            </div>
+
+            <div class="theme-page-header">
+                <h1 class="theme-page-title">Структуры данных</h1>
+                <p class="theme-page-desc">9 подтем · 108 задач</p>
+            </div>
+
+            <div class="subtag-nav">
+                <a href="#derevo-otrezkov" class="subtag-nav-item">Дерево отрезков <span class="subtag-nav-count">20</span></a>
+                <a href="#lenivoe-derevo-otrezkov" class="subtag-nav-item">Ленивое дерево отрезков <span class="subtag-nav-count">19</span></a>
+                <a href="#derevo-fenvika" class="subtag-nav-item">Дерево Фенвика <span class="subtag-nav-count">3</span></a>
+                <a href="#sistema-neperesekayushchikhsya-mnozhestv" class="subtag-nav-item">Система непересекающихся множеств <span class="subtag-nav-count">13</span></a>
+                <a href="#dvoichnye-podemy-i-lca" class="subtag-nav-item">Двоичные подъемы и LCA <span class="subtag-nav-count">18</span></a>
+                <a href="#sparse-table" class="subtag-nav-item">Sparse Table <span class="subtag-nav-count">9</span></a>
+                <a href="#zadacha-o-dinamicheskoy-svyaznosti-offlayn" class="subtag-nav-item">Задача о динамической связности оффлайн <span class="subtag-nav-count">8</span></a>
+                <a href="#inversii" class="subtag-nav-item">Инверсии <span class="subtag-nav-count">5</span></a>
+                <a href="#pravilnaya-skobochkaya-posledovatelnost" class="subtag-nav-item">Правильная скобочкая последовательность <span class="subtag-nav-count">13</span></a>
+            </div>
+
+            <div class="subtag-section" id="derevo-otrezkov">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Дерево отрезков</h2>
+                    <span class="subtag-count">20 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/problemset/problem/1234/D">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1234/D" target="_blank">Запросы на различные символы</a></td>
+                            <td class="task-rating"><span class="rating-expert">1600</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/339/D">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/339/D" target="_blank">Ксюша и битовые операции</a></td>
+                            <td class="task-rating"><span class="rating-expert">1700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2185/problem/F">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2185/problem/F" target="_blank">BattleCows</a></td>
+                            <td class="task-rating"><span class="rating-expert">1700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/482/problem/B">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/482/problem/B" target="_blank">Интересный массив</a></td>
+                            <td class="task-rating"><span class="rating-expert">1800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1691/D">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1691/D" target="_blank">Максимум не меньше суммы</a></td>
+                            <td class="task-rating"><span class="rating-expert">1800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/459/problem/D">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/459/problem/D" target="_blank">Задача Пашмака и Пармиды</a></td>
+                            <td class="task-rating"><span class="rating-expert">1800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/597/problem/C">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/597/problem/C" target="_blank">Подпоследовательности</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/396/problem/C">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/396/problem/C" target="_blank">О меняющемся дереве</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/914/D">
+                            <td class="task-num">9</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/914/D" target="_blank">Баш и сложная математическая головоломка</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2184/problem/G">
+                            <td class="task-num">10</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2184/problem/G" target="_blank">Мерзость отрезков</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/61/problem/E">
+                            <td class="task-num">11</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/61/problem/E" target="_blank">Противник слаб</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/380/problem/C">
+                            <td class="task-num">12</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/380/problem/C" target="_blank">Сережа и скобочки</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/920/F">
+                            <td class="task-num">13</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/920/F" target="_blank">SUM и REPLACE</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/383/problem/C">
+                            <td class="task-num">14</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/383/problem/C" target="_blank">Дерево подвижных сумм</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/474/problem/F">
+                            <td class="task-num">15</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/474/problem/F" target="_blank">Муравьиная колония</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/2149/G">
+                            <td class="task-num">16</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/2149/G" target="_blank">Buratsuta 3</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/301/problem/D">
+                            <td class="task-num">17</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/301/problem/D" target="_blank">Ярослав и делители</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2000/problem/H">
+                            <td class="task-num">18</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2000/problem/H" target="_blank">Ксюша и загруженное множество</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/115/problem/E">
+                            <td class="task-num">19</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/115/problem/E" target="_blank">Гонки в Линейном Королевстве</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/594/problem/D">
+                            <td class="task-num">20</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/594/problem/D" target="_blank">REQ</a></td>
+                            <td class="task-rating"><span class="rating-gm">2500</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="lenivoe-derevo-otrezkov">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Ленивое дерево отрезков</h2>
+                    <span class="subtag-count">19 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/contest/1791/problem/F">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1791/problem/F" target="_blank">Range Update Point Query</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1500</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/242/E">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/242/E" target="_blank">XOR на отрезке</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1924/problem/B">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1924/problem/B" target="_blank">Космическая гавань</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/343/D">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/343/D" target="_blank">Водяное дерево</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/838/problem/B">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/838/problem/B" target="_blank">Расходящиеся направления</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1555/problem/E">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1555/problem/E" target="_blank">Скучные отрезки</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/52/C">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/52/C" target="_blank">Циклические RMQ</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1179/problem/C">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1179/problem/C" target="_blank">Сергей и школьная столовая</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/558/E">
+                            <td class="task-num">9</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/558/E" target="_blank">Простое задание</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/438/problem/D">
+                            <td class="task-num">10</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/438/problem/D" target="_blank">Ребенок и последовательность</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/516/problem/C">
+                            <td class="task-num">11</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/516/problem/C" target="_blank">Drazil и парк</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1916/problem/E">
+                            <td class="task-num">12</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1916/problem/E" target="_blank">Весёлая жизнь в университете</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/817/F">
+                            <td class="task-num">13</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/817/F" target="_blank">Запросы на MEX</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1919/F1">
+                            <td class="task-num">14</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1919/F1" target="_blank">Винный завод</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/145/problem/E">
+                            <td class="task-num">15</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/145/problem/E" target="_blank">Счастливые запросы</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1114/F">
+                            <td class="task-num">16</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1114/F" target="_blank">Очередная задача про запросы к массиву</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/446/problem/C">
+                            <td class="task-num">17</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/446/problem/C" target="_blank">DZY любит числа Фибоначчи</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1132/problem/G">
+                            <td class="task-num">18</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1132/problem/G" target="_blank">Жадные подпоследовательности</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2176/problem/E">
+                            <td class="task-num">19</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2176/problem/E" target="_blank">Удалите за наименьшую стоимость</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="derevo-fenvika">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Дерево Фенвика</h2>
+                    <span class="subtag-count">3 задачи</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/contest/961/problem/E">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/961/problem/E" target="_blank">Туфурама</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1788/problem/E">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1788/problem/E" target="_blank">Сумма больше нуля</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2185/problem/H">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2185/problem/H" target="_blank">BattleCows 2</a></td>
+                            <td class="task-rating"><span class="rating-gm">2500</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="sistema-neperesekayushchikhsya-mnozhestv">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Система непересекающихся множеств</h2>
+                    <span class="subtag-count">13 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/contest/1559/problem/D1">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1559/problem/D1" target="_blank">Mocha и Diana (простая версия)</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1167/C">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1167/C" target="_blank">Распространение новостей</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/150/problem/B">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/150/problem/B" target="_blank">Количество строк</a></td>
+                            <td class="task-rating"><span class="rating-expert">1600</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2184/problem/E">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2184/problem/E" target="_blank">Изысканный массив</a></td>
+                            <td class="task-rating"><span class="rating-expert">1800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1213/problem/G">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1213/problem/G" target="_blank">Запросы на пути</a></td>
+                            <td class="task-rating"><span class="rating-expert">1800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1624/problem/G">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1624/problem/G" target="_blank">Дерево минимального ора</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2117/problem/G">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2117/problem/G" target="_blank">ОМГраф</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/468/problem/B">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/468/problem/B" target="_blank">Два множества</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/766/problem/D">
+                            <td class="task-num">9</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/766/problem/D" target="_blank">Махмуд и словарь</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/187/C">
+                            <td class="task-num">10</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/187/C" target="_blank">Скверная Память</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/915/problem/F">
+                            <td class="task-num">11</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/915/problem/F" target="_blank">Несбалансированность дерева</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/990/G">
+                            <td class="task-num">12</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/990/G" target="_blank">Подсчёт GCD</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1559/problem/D2">
+                            <td class="task-num">13</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1559/problem/D2" target="_blank">Mocha и Diana (сложная версия)</a></td>
+                            <td class="task-rating"><span class="rating-gm">2500</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="dvoichnye-podemy-i-lca">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Двоичные подъемы и LCA</h2>
+                    <span class="subtag-count">18 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/contest/1328/problem/E">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1328/problem/E" target="_blank">Запросы на дереве</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/832/problem/D">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/832/problem/D" target="_blank">Миша, Гриша и метро</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/191/problem/C">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/191/problem/C" target="_blank">Дураки и дороги</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1702/problem/G2">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1702/problem/G2" target="_blank">Проходимые пути (сложная версия)</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1142/problem/B">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1142/problem/B" target="_blank">Lynyrd Skynyrd</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/208/problem/E">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/208/problem/E" target="_blank">Братья по крови</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/466/problem/E">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/466/problem/E" target="_blank">Граф информаций</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/519/problem/E">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/519/problem/E" target="_blank">A и B и аудитории</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/609/problem/E">
+                            <td class="task-num">9</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/609/problem/E" target="_blank">Минимальное остовное дерево по каждому ребру</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/733/problem/F">
+                            <td class="task-num">10</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/733/problem/F" target="_blank">Недовольство автомобилистов</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1175/problem/E">
+                            <td class="task-num">11</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1175/problem/E" target="_blank">Минимальное покрытие отрезков</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/587/problem/C">
+                            <td class="task-num">12</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/587/problem/C" target="_blank">Duff в армии</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/629/problem/E">
+                            <td class="task-num">13</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/629/problem/E" target="_blank">Фома Дор и дороги</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1843/problem/F2">
+                            <td class="task-num">14</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1843/problem/F2" target="_blank">Метрополитен в Омске (сложная версия)</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/2195/G">
+                            <td class="task-num">15</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/2195/G" target="_blank">Поиск дурака и запросы</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/916/problem/E">
+                            <td class="task-num">16</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/916/problem/E" target="_blank">Джейми и дерево</a></td>
+                            <td class="task-rating"><span class="rating-gm">2400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/855/problem/D">
+                            <td class="task-num">17</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/855/problem/D" target="_blank">Диадема Кандиды Когтевран</a></td>
+                            <td class="task-rating"><span class="rating-gm">2500</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/372/problem/D">
+                            <td class="task-num">18</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/372/problem/D" target="_blank">Весело выбирать поддерево</a></td>
+                            <td class="task-rating"><span class="rating-gm">2600</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="sparse-table">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Sparse Table</h2>
+                    <span class="subtag-count">9 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/problemset/problem/1878/E">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1878/E" target="_blank">Ива и Пав</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2050/problem/F">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2050/problem/F" target="_blank">Максимальное модульное равенство</a></td>
+                            <td class="task-rating"><span class="rating-expert">1700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1547/problem/F">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1547/problem/F" target="_blank">Стабилизируй массив (НОД-версия)</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/475/problem/D">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/475/problem/D" target="_blank">CGCDSSQ</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/514/D">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/514/D" target="_blank">R2-D2 и армия дроидов</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/863/problem/E">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/863/problem/E" target="_blank">Выключение телевизора</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/474/problem/F">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/474/problem/F" target="_blank">Муравьиная колония</a></td>
+                            <td class="task-rating"><span class="rating-master">2100</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/675/problem/E">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/675/problem/E" target="_blank">Электрички и статистика</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/873/problem/E">
+                            <td class="task-num">9</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/873/problem/E" target="_blank">Награждение победителей</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="zadacha-o-dinamicheskoy-svyaznosti-offlayn">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Задача о динамической связности оффлайн</h2>
+                    <span class="subtag-count">8 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/C">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/C" target="_blank">Задача динамической связности в офлайне</a></td>
+                            <td class="task-rating"><span class="rating-expert">1600</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/981/problem/E">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/981/problem/E" target="_blank">Прибавления на отрезках</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/813/problem/F">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/813/problem/F" target="_blank">Проверка на двудольность</a></td>
+                            <td class="task-rating"><span class="rating-gm">2500</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1140/problem/F">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1140/problem/F" target="_blank">Расширение множества точек</a></td>
+                            <td class="task-rating"><span class="rating-gm">2600</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2104/problem/G">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2104/problem/G" target="_blank">По модулю 3</a></td>
+                            <td class="task-rating"><span class="rating-gm">2700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2069/problem/F">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2069/problem/F" target="_blank">Включение графа</a></td>
+                            <td class="task-rating"><span class="rating-gm">2800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/601/problem/E">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/601/problem/E" target="_blank">Ограбление музея</a></td>
+                            <td class="task-rating"><span class="rating-gm">2800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1386/problem/C">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1386/problem/C" target="_blank">Джокер</a></td>
+                            <td class="task-rating"><span class="rating-gm">2800</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="inversii">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Инверсии</h2>
+                    <span class="subtag-count">5 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/problemset/problem/1918/B">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1918/B" target="_blank">Минимизируйте инверсии</a></td>
+                            <td class="task-rating"><span class="rating-newbie">900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1915/F">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1915/F" target="_blank">Приветствия</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1500</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/911/problem/D">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/911/problem/D" target="_blank">Подсчет инверсий</a></td>
+                            <td class="task-rating"><span class="rating-expert">1800</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1430/problem/E">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1430/problem/E" target="_blank">Переворот строки</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1526/problem/D">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1526/problem/D" target="_blank">Убить Антона</a></td>
+                            <td class="task-rating"><span class="rating-master">2200</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subtag-section" id="pravilnaya-skobochkaya-posledovatelnost">
+                <div class="subtag-header">
+                    <h2 class="subtag-title">Правильная скобочкая последовательность</h2>
+                    <span class="subtag-count">13 задач</span>
+                </div>
+                <table class="tasks-table">
+                    <thead>
+                        <tr>
+                            <th class="th-num">#</th>
+                            <th class="th-name">Задача</th>
+                            <th class="th-rating">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-url="https://codeforces.com/problemset/problem/1023/C">
+                            <td class="task-num">1</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1023/C" target="_blank">Скобочная подпоследовательность</a></td>
+                            <td class="task-rating"><span class="rating-pupil">1200</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1726/C">
+                            <td class="task-num">2</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1726/C" target="_blank">Правильная скобочная последовательность Jatayu</a></td>
+                            <td class="task-rating"><span class="rating-pupil">1300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/612/C">
+                            <td class="task-num">3</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/612/C" target="_blank">Заменить до правильной скобочной последовательности</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1837/D">
+                            <td class="task-num">4</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1837/D" target="_blank">Раскраска скобок</a></td>
+                            <td class="task-rating"><span class="rating-specialist">1400</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1153/problem/C">
+                            <td class="task-num">5</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1153/problem/C" target="_blank">Сервал и скобочная последовательность</a></td>
+                            <td class="task-rating"><span class="rating-expert">1700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/670/E">
+                            <td class="task-num">6</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/670/E" target="_blank">Редактор правильных скобочных последовательностей</a></td>
+                            <td class="task-rating"><span class="rating-expert">1700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/223/A">
+                            <td class="task-num">7</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/223/A" target="_blank">Скобочная последовательность</a></td>
+                            <td class="task-rating"><span class="rating-expert">1700</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/5/C">
+                            <td class="task-num">8</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/5/C" target="_blank">Наибольшая правильная скобочная подстрока</a></td>
+                            <td class="task-rating"><span class="rating-cm">1900</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/380/problem/C">
+                            <td class="task-num">9</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/380/problem/C" target="_blank">Сережа и скобочки</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/1976/problem/D">
+                            <td class="task-num">10</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/1976/problem/D" target="_blank">Инвертируемые скобочные последовательности</a></td>
+                            <td class="task-rating"><span class="rating-cm">2000</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/785/problem/D">
+                            <td class="task-num">11</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/785/problem/D" target="_blank">Антон и школа - 2</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/problemset/problem/1015/F">
+                            <td class="task-num">12</td>
+                            <td class="task-name"><a href="https://codeforces.com/problemset/problem/1015/F" target="_blank">Скобочная подстрока</a></td>
+                            <td class="task-rating"><span class="rating-master">2300</span></td>
+                        </tr>
+                        <tr data-url="https://codeforces.com/contest/2144/problem/F">
+                            <td class="task-num">13</td>
+                            <td class="task-name"><a href="https://codeforces.com/contest/2144/problem/F" target="_blank">Группы скобок</a></td>
+                            <td class="task-rating"><span class="rating-gm">2700</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+
+        </div>
+    </footer>
+
+        <!-- Кнопка наверх -->
+    <button class="scroll-top-btn" id="scrollTopBtn" title="Наверх">↑</button>
+
+    <script src="../app.js"></script>
+    <script>
+        // Кнопка прокрутки наверх
+        const scrollBtn = document.getElementById('scrollTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+            </a>
+
+            <!-- CF Handle Widget -->
+            <div class="handle-widget">
+                <div class="handle-input-wrap">
+                    <span class="handle-icon">⌨</span>
+                    <input
+                        type="text"
+                        id="handleInput"
+                        class="handle-input"
+                        placeholder="Codeforces handle"
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+                    <button class="handle-btn" id="handleSubmit" title="Загрузить">→</button>
+                    <button class="handle-clear" id="handleClear" title="Сменить handle">✕</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="../index.html">Главная</a>
+                <span class="breadcrumb-sep">→</span>
+                <span class="breadcrumb-current">%%TITLE%%</span>
+            </div>
+
+            <div class="theme-page-header">
+                <h1 class="theme-page-title">%%TITLE%%</h1>
+                <p class="theme-page-desc">%%STATS_TEXT%%</p>
+            </div>
+
+            <div class="subtag-nav">
+%%NAV%%
+            </div>
+
+%%SECTIONS%%
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+
+        </div>
+    </footer>
+
+        <!-- Кнопка наверх -->
+    <button class="scroll-top-btn" id="scrollTopBtn" title="Наверх">↑</button>
+
+    <script src="../app.js"></script>
+    <script>
+        // Кнопка прокрутки наверх
+        const scrollBtn = document.getElementById('scrollTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,2800 @@
+{
+  "tags": {
+    "Структуры данных": {
+      "subtags": {
+        "Дерево отрезков": {
+          "tasks": [
+            {
+              "name": "Запросы на различные символы",
+              "url": "https://codeforces.com/problemset/problem/1234/D",
+              "rating": 1600
+            },
+            {
+              "name": "Ксюша и битовые операции",
+              "url": "https://codeforces.com/problemset/problem/339/D",
+              "rating": 1700
+            },
+            {
+              "name": "Сережа и скобочки",
+              "url": "https://codeforces.com/contest/380/problem/C",
+              "rating": 2000
+            },
+            {
+              "name": "Муравьиная колония",
+              "url": "https://codeforces.com/contest/474/problem/F",
+              "rating": 2100
+            },
+            {
+              "name": "Интересный массив",
+              "url": "https://codeforces.com/contest/482/problem/B",
+              "rating": 1800
+            },
+            {
+              "name": "Подпоследовательности",
+              "url": "https://codeforces.com/contest/597/problem/C",
+              "rating": 1900
+            },
+            {
+              "name": "SUM и REPLACE",
+              "url": "https://codeforces.com/problemset/problem/920/F",
+              "rating": 2000
+            },
+            {
+              "name": "О меняющемся дереве",
+              "url": "https://codeforces.com/contest/396/problem/C",
+              "rating": 1900
+            },
+            {
+              "name": "Ярослав и делители",
+              "url": "https://codeforces.com/contest/301/problem/D",
+              "rating": 2200
+            },
+            {
+              "name": "Дерево подвижных сумм",
+              "url": "https://codeforces.com/contest/383/problem/C",
+              "rating": 2000
+            },
+            {
+              "name": "Баш и сложная математическая головоломка",
+              "url": "https://codeforces.com/problemset/problem/914/D",
+              "rating": 1900
+            },
+            {
+              "name": "Ксюша и загруженное множество",
+              "url": "https://codeforces.com/contest/2000/problem/H",
+              "rating": 2200
+            },
+            {
+              "name": "Buratsuta 3",
+              "url": "https://codeforces.com/problemset/problem/2149/G",
+              "rating": 2100
+            },
+            {
+              "name": "Максимум не меньше суммы",
+              "url": "https://codeforces.com/problemset/problem/1691/D",
+              "rating": 1800
+            },
+            {
+              "name": "Мерзость отрезков",
+              "url": "https://codeforces.com/contest/2184/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "REQ",
+              "url": "https://codeforces.com/contest/594/problem/D",
+              "rating": 2500
+            },
+            {
+              "name": "Гонки в Линейном Королевстве",
+              "url": "https://codeforces.com/contest/115/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Противник слаб",
+              "url": "https://codeforces.com/contest/61/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Задача Пашмака и Пармиды",
+              "url": "https://codeforces.com/contest/459/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "BattleCows",
+              "url": "https://codeforces.com/contest/2185/problem/F",
+              "rating": 1700
+            }
+          ]
+        },
+        "Ленивое дерево отрезков": {
+          "tasks": [
+            {
+              "name": "Счастливые запросы",
+              "url": "https://codeforces.com/contest/145/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "XOR на отрезке",
+              "url": "https://codeforces.com/problemset/problem/242/E",
+              "rating": 2000
+            },
+            {
+              "name": "Простое задание",
+              "url": "https://codeforces.com/problemset/problem/558/E",
+              "rating": 2300
+            },
+            {
+              "name": "Range Update Point Query",
+              "url": "https://codeforces.com/contest/1791/problem/F",
+              "rating": 1500
+            },
+            {
+              "name": "Ребенок и последовательность",
+              "url": "https://codeforces.com/contest/438/problem/D",
+              "rating": 2300
+            },
+            {
+              "name": "Циклические RMQ",
+              "url": "https://codeforces.com/problemset/problem/52/C",
+              "rating": 2200
+            },
+            {
+              "name": "Drazil и парк",
+              "url": "https://codeforces.com/contest/516/problem/C",
+              "rating": 2300
+            },
+            {
+              "name": "Космическая гавань",
+              "url": "https://codeforces.com/contest/1924/problem/B",
+              "rating": 2100
+            },
+            {
+              "name": "Весёлая жизнь в университете",
+              "url": "https://codeforces.com/contest/1916/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Водяное дерево",
+              "url": "https://codeforces.com/problemset/problem/343/D",
+              "rating": 2100
+            },
+            {
+              "name": "Расходящиеся направления",
+              "url": "https://codeforces.com/contest/838/problem/B",
+              "rating": 2100
+            },
+            {
+              "name": "Сергей и школьная столовая",
+              "url": "https://codeforces.com/contest/1179/problem/C",
+              "rating": 2200
+            },
+            {
+              "name": "Запросы на MEX",
+              "url": "https://codeforces.com/problemset/problem/817/F",
+              "rating": 2300
+            },
+            {
+              "name": "Скучные отрезки",
+              "url": "https://codeforces.com/contest/1555/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Очередная задача про запросы к массиву",
+              "url": "https://codeforces.com/problemset/problem/1114/F",
+              "rating": 2400
+            },
+            {
+              "name": "DZY любит числа Фибоначчи",
+              "url": "https://codeforces.com/contest/446/problem/C",
+              "rating": 2400
+            },
+            {
+              "name": "Винный завод",
+              "url": "https://codeforces.com/problemset/problem/1919/F1",
+              "rating": 2300
+            },
+            {
+              "name": "Жадные подпоследовательности",
+              "url": "https://codeforces.com/contest/1132/problem/G",
+              "rating": 2400
+            },
+            {
+              "name": "Удалите за наименьшую стоимость",
+              "url": "https://codeforces.com/contest/2176/problem/E",
+              "rating": 2400
+            }
+          ]
+        },
+        "Дерево Фенвика": {
+          "tasks": [
+            {
+              "name": "Туфурама",
+              "url": "https://codeforces.com/contest/961/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Сумма больше нуля",
+              "url": "https://codeforces.com/contest/1788/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "BattleCows 2",
+              "url": "https://codeforces.com/contest/2185/problem/H",
+              "rating": 2500
+            }
+          ]
+        },
+        "Система непересекающихся множеств": {
+          "tasks": [
+            {
+              "name": "Количество строк",
+              "url": "https://codeforces.com/contest/150/problem/B",
+              "rating": 1600
+            },
+            {
+              "name": "Mocha и Diana (простая версия)",
+              "url": "https://codeforces.com/contest/1559/problem/D1",
+              "rating": 1400
+            },
+            {
+              "name": "Распространение новостей",
+              "url": "https://codeforces.com/problemset/problem/1167/C",
+              "rating": 1400
+            },
+            {
+              "name": "Изысканный массив",
+              "url": "https://codeforces.com/contest/2184/problem/E",
+              "rating": 1800
+            },
+            {
+              "name": "Два множества",
+              "url": "https://codeforces.com/contest/468/problem/B",
+              "rating": 2000
+            },
+            {
+              "name": "Запросы на пути",
+              "url": "https://codeforces.com/contest/1213/problem/G",
+              "rating": 1800
+            },
+            {
+              "name": "Дерево минимального ора",
+              "url": "https://codeforces.com/contest/1624/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Махмуд и словарь",
+              "url": "https://codeforces.com/contest/766/problem/D",
+              "rating": 2000
+            },
+            {
+              "name": "Несбалансированность дерева",
+              "url": "https://codeforces.com/contest/915/problem/F",
+              "rating": 2400
+            },
+            {
+              "name": "Подсчёт GCD",
+              "url": "https://codeforces.com/problemset/problem/990/G",
+              "rating": 2400
+            },
+            {
+              "name": "Mocha и Diana (сложная версия)",
+              "url": "https://codeforces.com/contest/1559/problem/D2",
+              "rating": 2500
+            },
+            {
+              "name": "ОМГраф",
+              "url": "https://codeforces.com/contest/2117/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Скверная Память",
+              "url": "https://codeforces.com/problemset/problem/187/C",
+              "rating": 2000
+            }
+          ]
+        },
+        "Двоичные подъемы и LCA": {
+          "tasks": [
+            {
+              "name": "Фома Дор и дороги",
+              "url": "https://codeforces.com/contest/629/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Недовольство автомобилистов",
+              "url": "https://codeforces.com/contest/733/problem/F",
+              "rating": 2200
+            },
+            {
+              "name": "Диадема Кандиды Когтевран",
+              "url": "https://codeforces.com/contest/855/problem/D",
+              "rating": 2500
+            },
+            {
+              "name": "Джейми и дерево",
+              "url": "https://codeforces.com/contest/916/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Метрополитен в Омске (сложная версия)",
+              "url": "https://codeforces.com/contest/1843/problem/F2",
+              "rating": 2300
+            },
+            {
+              "name": "Минимальное покрытие отрезков",
+              "url": "https://codeforces.com/contest/1175/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Поиск дурака и запросы",
+              "url": "https://codeforces.com/problemset/problem/2195/G",
+              "rating": 2300
+            },
+            {
+              "name": "Весело выбирать поддерево",
+              "url": "https://codeforces.com/contest/372/problem/D",
+              "rating": 2600
+            },
+            {
+              "name": "Запросы на дереве",
+              "url": "https://codeforces.com/contest/1328/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Проходимые пути (сложная версия)",
+              "url": "https://codeforces.com/contest/1702/problem/G2",
+              "rating": 2000
+            },
+            {
+              "name": "Миша, Гриша и метро",
+              "url": "https://codeforces.com/contest/832/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Lynyrd Skynyrd",
+              "url": "https://codeforces.com/contest/1142/problem/B",
+              "rating": 2000
+            },
+            {
+              "name": "Братья по крови",
+              "url": "https://codeforces.com/contest/208/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Дураки и дороги",
+              "url": "https://codeforces.com/contest/191/problem/C",
+              "rating": 1900
+            },
+            {
+              "name": "Граф информаций",
+              "url": "https://codeforces.com/contest/466/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "A и B и аудитории",
+              "url": "https://codeforces.com/contest/519/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Duff в армии",
+              "url": "https://codeforces.com/contest/587/problem/C",
+              "rating": 2200
+            },
+            {
+              "name": "Минимальное остовное дерево по каждому ребру",
+              "url": "https://codeforces.com/contest/609/problem/E",
+              "rating": 2100
+            }
+          ]
+        },
+        "Sparse Table": {
+          "tasks": [
+            {
+              "name": "Максимальное модульное равенство",
+              "url": "https://codeforces.com/contest/2050/problem/F",
+              "rating": 1700
+            },
+            {
+              "name": "Ива и Пав",
+              "url": "https://codeforces.com/problemset/problem/1878/E",
+              "rating": 1400
+            },
+            {
+              "name": "Муравьиная колония",
+              "url": "https://codeforces.com/contest/474/problem/F",
+              "rating": 2100
+            },
+            {
+              "name": "CGCDSSQ",
+              "url": "https://codeforces.com/contest/475/problem/D",
+              "rating": 2000
+            },
+            {
+              "name": "R2-D2 и армия дроидов",
+              "url": "https://codeforces.com/problemset/problem/514/D",
+              "rating": 2000
+            },
+            {
+              "name": "Электрички и статистика",
+              "url": "https://codeforces.com/contest/675/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Выключение телевизора",
+              "url": "https://codeforces.com/contest/863/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Стабилизируй массив (НОД-версия)",
+              "url": "https://codeforces.com/contest/1547/problem/F",
+              "rating": 1900
+            },
+            {
+              "name": "Награждение победителей",
+              "url": "https://codeforces.com/contest/873/problem/E",
+              "rating": 2300
+            }
+          ]
+        },
+        "Задача о динамической связности оффлайн": {
+          "tasks": [
+            {
+              "name": "Включение графа",
+              "url": "https://codeforces.com/contest/2069/problem/F",
+              "rating": 2800
+            },
+            {
+              "name": "По модулю 3",
+              "url": "https://codeforces.com/contest/2104/problem/G",
+              "rating": 2700
+            },
+            {
+              "name": "Проверка на двудольность",
+              "url": "https://codeforces.com/contest/813/problem/F",
+              "rating": 2500
+            },
+            {
+              "name": "Ограбление музея",
+              "url": "https://codeforces.com/contest/601/problem/E",
+              "rating": 2800
+            },
+            {
+              "name": "Джокер",
+              "url": "https://codeforces.com/contest/1386/problem/C",
+              "rating": 2800
+            },
+            {
+              "name": "Задача динамической связности в офлайне",
+              "url": "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/C",
+              "rating": 1600
+            },
+            {
+              "name": "Прибавления на отрезках",
+              "url": "https://codeforces.com/contest/981/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Расширение множества точек",
+              "url": "https://codeforces.com/contest/1140/problem/F",
+              "rating": 2600
+            }
+          ]
+        },
+        "Инверсии": {
+          "tasks": [
+            {
+              "name": "Минимизируйте инверсии",
+              "url": "https://codeforces.com/problemset/problem/1918/B",
+              "rating": 900
+            },
+            {
+              "name": "Приветствия",
+              "url": "https://codeforces.com/problemset/problem/1915/F",
+              "rating": 1500
+            },
+            {
+              "name": "Переворот строки",
+              "url": "https://codeforces.com/contest/1430/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Подсчет инверсий",
+              "url": "https://codeforces.com/contest/911/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Убить Антона",
+              "url": "https://codeforces.com/contest/1526/problem/D",
+              "rating": 2200
+            }
+          ]
+        },
+        "Правильная скобочкая последовательность": {
+          "tasks": [
+            {
+              "name": "Наибольшая правильная скобочная подстрока",
+              "url": "https://codeforces.com/problemset/problem/5/C",
+              "rating": 1900
+            },
+            {
+              "name": "Правильная скобочная последовательность Jatayu",
+              "url": "https://codeforces.com/problemset/problem/1726/C",
+              "rating": 1300
+            },
+            {
+              "name": "Скобочная подпоследовательность",
+              "url": "https://codeforces.com/problemset/problem/1023/C",
+              "rating": 1200
+            },
+            {
+              "name": "Сервал и скобочная последовательность",
+              "url": "https://codeforces.com/contest/1153/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Заменить до правильной скобочной последовательности",
+              "url": "https://codeforces.com/problemset/problem/612/C",
+              "rating": 1400
+            },
+            {
+              "name": "Раскраска скобок",
+              "url": "https://codeforces.com/problemset/problem/1837/D",
+              "rating": 1400
+            },
+            {
+              "name": "Антон и школа - 2",
+              "url": "https://codeforces.com/contest/785/problem/D",
+              "rating": 2300
+            },
+            {
+              "name": "Скобочная подстрока",
+              "url": "https://codeforces.com/problemset/problem/1015/F",
+              "rating": 2300
+            },
+            {
+              "name": "Редактор правильных скобочных последовательностей",
+              "url": "https://codeforces.com/problemset/problem/670/E",
+              "rating": 1700
+            },
+            {
+              "name": "Скобочная последовательность",
+              "url": "https://codeforces.com/problemset/problem/223/A",
+              "rating": 1700
+            },
+            {
+              "name": "Сережа и скобочки",
+              "url": "https://codeforces.com/contest/380/problem/C",
+              "rating": 2000
+            },
+            {
+              "name": "Инвертируемые скобочные последовательности",
+              "url": "https://codeforces.com/contest/1976/problem/D",
+              "rating": 2000
+            },
+            {
+              "name": "Группы скобок",
+              "url": "https://codeforces.com/contest/2144/problem/F",
+              "rating": 2700
+            }
+          ]
+        }
+      }
+    },
+    "Графы": {
+      "subtags": {
+        "DFS": {
+          "tasks": [
+            {
+              "name": "Красивый граф",
+              "url": "https://codeforces.com/contest/1093/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Покрывай!",
+              "url": "https://codeforces.com/problemset/problem/1176/E",
+              "rating": 1700
+            },
+            {
+              "name": "Граф без длинных ориентированных путей",
+              "url": "https://codeforces.com/contest/1144/problem/F",
+              "rating": 1700
+            },
+            {
+              "name": "Леха и другая игра про графы",
+              "url": "https://codeforces.com/contest/841/problem/D",
+              "rating": 2100
+            },
+            {
+              "name": "Широкий-преширокий граф",
+              "url": "https://codeforces.com/contest/1805/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Лабиринт",
+              "url": "https://codeforces.com/contest/378/problem/C",
+              "rating": 1600
+            },
+            {
+              "name": "Махмуд, Ехаб и двудольность",
+              "url": "https://codeforces.com/contest/862/problem/B",
+              "rating": 1300
+            },
+            {
+              "name": "Догонялки",
+              "url": "https://codeforces.com/contest/813/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Кольцевая",
+              "url": "https://codeforces.com/contest/24/problem/A",
+              "rating": 1400
+            },
+            {
+              "name": "Превращение: из A в B",
+              "url": "https://codeforces.com/contest/727/problem/A",
+              "rating": 1000
+            },
+            {
+              "name": "Кефа и парк",
+              "url": "https://codeforces.com/problemset/problem/580/C",
+              "rating": 1500
+            },
+            {
+              "name": "Ремонт дорог",
+              "url": "https://codeforces.com/contest/638/problem/C",
+              "rating": 1800
+            },
+            {
+              "name": "Чёрно-белые сбалансированные поддеревья",
+              "url": "https://codeforces.com/contest/1676/problem/G",
+              "rating": 1300
+            }
+          ]
+        },
+        "BFS": {
+          "tasks": [
+            {
+              "name": "Путь короля",
+              "url": "https://codeforces.com/contest/242/problem/C",
+              "rating": 1800
+            },
+            {
+              "name": "Цикл в лабиринте",
+              "url": "https://codeforces.com/contest/769/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Получение нуля",
+              "url": "https://codeforces.com/problemset/problem/1661/B",
+              "rating": 1300
+            },
+            {
+              "name": "Рудольф и игра с мячом",
+              "url": "https://codeforces.com/contest/1941/problem/D",
+              "rating": 1200
+            },
+            {
+              "name": "Посты полиции",
+              "url": "https://codeforces.com/contest/796/problem/D",
+              "rating": 2100
+            },
+            {
+              "name": "Корректный BFS?",
+              "url": "https://codeforces.com/contest/1037/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Ближайшие точки",
+              "url": "https://codeforces.com/contest/1651/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Опять пожар",
+              "url": "https://codeforces.com/contest/35/problem/C",
+              "rating": 1500
+            },
+            {
+              "name": "Ближайшая противоположная четность",
+              "url": "https://codeforces.com/contest/1272/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Дружелюбные пауки",
+              "url": "https://codeforces.com/contest/1775/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Скверная Память",
+              "url": "https://codeforces.com/problemset/problem/187/C",
+              "rating": 2000
+            }
+          ]
+        },
+        "Топологическая сортировка": {
+          "tasks": [
+            {
+              "name": "Лиса и имена",
+              "url": "https://codeforces.com/problemset/problem/510/C",
+              "rating": 1600
+            },
+            {
+              "name": "Скриншоты чата",
+              "url": "https://codeforces.com/problemset/problem/1931/F",
+              "rating": 1700
+            },
+            {
+              "name": "Ориентация ребер",
+              "url": "https://codeforces.com/contest/1385/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Максимальное дерево",
+              "url": "https://codeforces.com/problemset/problem/2143/C",
+              "rating": 1300
+            }
+          ]
+        },
+        "Компоненты сильной связности": {
+          "tasks": [
+            {
+              "name": "КПП",
+              "url": "https://codeforces.com/contest/427/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Достижимость из столицы",
+              "url": "https://codeforces.com/contest/999/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Технология мистера Китаюта",
+              "url": "https://codeforces.com/contest/505/problem/D",
+              "rating": 2200
+            },
+            {
+              "name": "Схема",
+              "url": "https://codeforces.com/contest/22/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Ральф и грибы",
+              "url": "https://codeforces.com/contest/894/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Конкурс котиков",
+              "url": "https://codeforces.com/contest/1239/problem/D",
+              "rating": 2400
+            }
+          ]
+        },
+        "Эйлеров путь/цикл": {
+          "tasks": [
+            {
+              "name": "Подземная лаборатория",
+              "url": "https://codeforces.com/contest/781/problem/C",
+              "rating": 2100
+            },
+            {
+              "name": "Растущее дерево",
+              "url": "https://codeforces.com/contest/1891/problem/F",
+              "rating": 2000
+            },
+            {
+              "name": "Джейми и дерево",
+              "url": "https://codeforces.com/contest/916/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Новогодняя ёлка",
+              "url": "https://codeforces.com/problemset/problem/620/E",
+              "rating": 2100
+            },
+            {
+              "name": "Братья по крови",
+              "url": "https://codeforces.com/contest/208/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Водяное дерево",
+              "url": "https://codeforces.com/problemset/problem/343/D",
+              "rating": 2100
+            },
+            {
+              "name": "Данил и подработка",
+              "url": "https://codeforces.com/problemset/problem/877/E",
+              "rating": 2000
+            },
+            {
+              "name": "Весёлая жизнь в университете",
+              "url": "https://codeforces.com/contest/1916/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Таня и пароль",
+              "url": "https://codeforces.com/contest/508/problem/D",
+              "rating": 2500
+            },
+            {
+              "name": "Односторонняя реформа",
+              "url": "https://codeforces.com/contest/723/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Мелодия",
+              "url": "https://codeforces.com/contest/2110/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Обход графа",
+              "url": "https://codeforces.com/problemset/problem/21/D",
+              "rating": 2400
+            },
+            {
+              "name": "Джонни и ожерелье Меган",
+              "url": "https://codeforces.com/contest/1361/problem/C",
+              "rating": 2500
+            },
+            {
+              "name": "Черепаха и умножение",
+              "url": "https://codeforces.com/contest/1981/problem/D",
+              "rating": 2400
+            },
+            {
+              "name": "Странное путешествие",
+              "url": "https://codeforces.com/problemset/problem/788/B",
+              "rating": 2100
+            },
+            {
+              "name": "Честный делёж",
+              "url": "https://codeforces.com/contest/1634/problem/E",
+              "rating": 2400
+            }
+          ]
+        },
+        "Мосты и точки сочленения": {
+          "tasks": [
+            {
+              "name": "В погоне за артефактами",
+              "url": "https://codeforces.com/problemset/problem/652/E",
+              "rating": 2300
+            },
+            {
+              "name": "Туристическая реформа",
+              "url": "https://codeforces.com/contest/732/problem/F",
+              "rating": 2300
+            },
+            {
+              "name": "Рада и Ромашковая долина",
+              "url": "https://codeforces.com/contest/2132/problem/F",
+              "rating": 2100
+            },
+            {
+              "name": "Внеучебная задача",
+              "url": "https://codeforces.com/contest/1986/problem/F",
+              "rating": 1900
+            },
+            {
+              "name": "Нужно больше боссов",
+              "url": "https://codeforces.com/problemset/problem/1000/E",
+              "rating": 2100
+            }
+          ]
+        },
+        "Алгоритм Дейкстры": {
+          "tasks": [
+            {
+              "name": "Президент и дороги",
+              "url": "https://codeforces.com/problemset/problem/567/E",
+              "rating": 2200
+            },
+            {
+              "name": "Кратчайший путь",
+              "url": "https://codeforces.com/problemset/problem/59/E",
+              "rating": 2000
+            },
+            {
+              "name": "Jzzhu и города",
+              "url": "https://codeforces.com/problemset/problem/449/B",
+              "rating": 2000
+            },
+            {
+              "name": "Пропуск",
+              "url": "https://codeforces.com/contest/2024/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Уменьшение стоимости доставки",
+              "url": "https://codeforces.com/problemset/problem/1433/G",
+              "rating": 2100
+            },
+            {
+              "name": "Монстры",
+              "url": "https://codeforces.com/contest/1810/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Граф и граф",
+              "url": "https://codeforces.com/contest/2059/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Минимальный путь",
+              "url": "https://codeforces.com/problemset/problem/1473/E",
+              "rating": 2400
+            },
+            {
+              "name": "Алгоритм Дейкстры?",
+              "url": "https://codeforces.com/problemset/problem/20/C",
+              "rating": 1900
+            },
+            {
+              "name": "Рудольф и CodeVid-23",
+              "url": "https://codeforces.com/contest/1846/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Велосипеды",
+              "url": "https://codeforces.com/contest/1915/problem/G",
+              "rating": 1800
+            },
+            {
+              "name": "Встреча Мариан и Робина",
+              "url": "https://codeforces.com/contest/2014/problem/E",
+              "rating": 1800
+            }
+          ]
+        },
+        "Алгоритм Флойда": {
+          "tasks": [
+            {
+              "name": "Егор и граф",
+              "url": "https://codeforces.com/problemset/problem/295/B",
+              "rating": 1700
+            },
+            {
+              "name": "Дороги в Берляндии",
+              "url": "https://codeforces.com/contest/25/problem/C",
+              "rating": 1900
+            },
+            {
+              "name": "Строковая задача",
+              "url": "https://codeforces.com/contest/33/problem/B",
+              "rating": 1800
+            }
+          ]
+        },
+        "Определение цикла": {
+          "tasks": [
+            {
+              "name": "Средняя демоническая задача (легкая версия)",
+              "url": "https://codeforces.com/contest/2044/problem/G1",
+              "rating": 1700
+            },
+            {
+              "name": "Количество простых путей",
+              "url": "https://codeforces.com/contest/1454/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Цикл в графе",
+              "url": "https://codeforces.com/contest/263/problem/D",
+              "rating": 1800
+            }
+          ]
+        },
+        "2-SAT": {
+          "tasks": [
+            {
+              "name": "Автомобили",
+              "url": "https://codeforces.com/contest/1635/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "±1",
+              "url": "https://codeforces.com/contest/1971/problem/H",
+              "rating": 2100
+            },
+            {
+              "name": "Задача о дверях",
+              "url": "https://codeforces.com/contest/776/problem/D",
+              "rating": 2000
+            },
+            {
+              "name": "Необычная матрица",
+              "url": "https://codeforces.com/contest/1475/problem/F",
+              "rating": 1900
+            },
+            {
+              "name": "Прекрасные таблицы",
+              "url": "https://codeforces.com/problemset/problem/1844/E",
+              "rating": 2400
+            },
+            {
+              "name": "Няня",
+              "url": "https://codeforces.com/contest/1903/problem/F",
+              "rating": 2500
+            }
+          ]
+        },
+        "Минимальное остовное дерево": {
+          "tasks": [
+            {
+              "name": "Махмуд, Эхаб, исключащее ИЛИ и минимальное остовное дерево",
+              "url": "https://codeforces.com/problemset/problem/959/E",
+              "rating": 1900
+            },
+            {
+              "name": "Черепаха и пересекающиеся отрезки",
+              "url": "https://codeforces.com/contest/1981/problem/E",
+              "rating": 2600
+            },
+            {
+              "name": "Сделай связным",
+              "url": "https://codeforces.com/contest/1095/problem/F",
+              "rating": 1900
+            },
+            {
+              "name": "Унификация MST",
+              "url": "https://codeforces.com/contest/1108/problem/F",
+              "rating": 2100
+            },
+            {
+              "name": "Избегайте разноцветных циклов",
+              "url": "https://codeforces.com/problemset/problem/1408/E",
+              "rating": 2400
+            },
+            {
+              "name": "Компания MST",
+              "url": "https://codeforces.com/contest/125/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Подарок",
+              "url": "https://codeforces.com/contest/76/problem/A",
+              "rating": 2200
+            },
+            {
+              "name": "Подсчет графов",
+              "url": "https://codeforces.com/problemset/problem/1857/G",
+              "rating": 2000
+            },
+            {
+              "name": "НОД и МОД",
+              "url": "https://codeforces.com/problemset/problem/1513/D",
+              "rating": 2000
+            },
+            {
+              "name": "Минимальное остовное дерево по каждому ребру",
+              "url": "https://codeforces.com/contest/609/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Ребра в MST",
+              "url": "https://codeforces.com/contest/160/problem/D",
+              "rating": 2300
+            },
+            {
+              "name": "Зависть",
+              "url": "https://codeforces.com/problemset/problem/891/C",
+              "rating": 2300
+            },
+            {
+              "name": "Коровоконг объединяет нацию",
+              "url": "https://codeforces.com/problemset/problem/744/A",
+              "rating": 1500
+            },
+            {
+              "name": "Запросы на пути",
+              "url": "https://codeforces.com/contest/1213/problem/G",
+              "rating": 1800
+            },
+            {
+              "name": "Дерево минимального ора",
+              "url": "https://codeforces.com/contest/1624/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Игорь в музее",
+              "url": "https://codeforces.com/contest/598/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Уроки дизайна задач: обратные задачи",
+              "url": "https://codeforces.com/contest/472/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Блоха",
+              "url": "https://codeforces.com/problemset/problem/32/C",
+              "rating": 1700
+            }
+          ]
+        }
+      }
+    },
+    "Строки": {
+      "subtags": {
+        "Z функция": {
+          "tasks": [
+            {
+              "name": "МУХ и стенки из кубиков",
+              "url": "https://codeforces.com/problemset/problem/471/D",
+              "rating": 1800
+            },
+            {
+              "name": "Префиксы и суффиксы",
+              "url": "https://codeforces.com/problemset/problem/432/D",
+              "rating": 2000
+            },
+            {
+              "name": "Тавас и Малекас",
+              "url": "https://codeforces.com/problemset/problem/535/D",
+              "rating": 1900
+            },
+            {
+              "name": "Преобразование строки",
+              "url": "https://codeforces.com/problemset/problem/119/D",
+              "rating": 2500
+            },
+            {
+              "name": "Пароль",
+              "url": "https://codeforces.com/problemset/problem/126/B",
+              "rating": 1700
+            },
+            {
+              "name": "Деление + LCP (сложная версия)",
+              "url": "https://codeforces.com/problemset/problem/1968/G2",
+              "rating": 2200
+            },
+            {
+              "name": "Тривиальная задача на строки",
+              "url": "https://codeforces.com/contest/2209/problem/E",
+              "rating": 2200
+            }
+          ]
+        },
+        "Алгоритм Кнута-Морриса-Пратта и Префикс функция": {
+          "tasks": [
+            {
+              "name": "МУХ и стенки из кубиков",
+              "url": "https://codeforces.com/problemset/problem/471/D",
+              "rating": 1800
+            },
+            {
+              "name": "Тривиальная задача на строки",
+              "url": "https://codeforces.com/contest/2209/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Одержимость строкой",
+              "url": "https://codeforces.com/contest/494/problem/B",
+              "rating": 2000
+            },
+            {
+              "name": "Мессенджер",
+              "url": "https://codeforces.com/problemset/problem/631/D",
+              "rating": 2100
+            },
+            {
+              "name": "Преобразование строки",
+              "url": "https://codeforces.com/problemset/problem/119/D",
+              "rating": 2500
+            },
+            {
+              "name": "Скобочная подстрока",
+              "url": "https://codeforces.com/problemset/problem/1015/F",
+              "rating": 2300
+            },
+            {
+              "name": "Древесно-строковая задача",
+              "url": "https://codeforces.com/contest/291/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Сжатие строки",
+              "url": "https://codeforces.com/contest/825/problem/F",
+              "rating": 2400
+            },
+            {
+              "name": "Тест",
+              "url": "https://codeforces.com/problemset/problem/25/E",
+              "rating": 2200
+            },
+            {
+              "name": "Склеивание слов",
+              "url": "https://codeforces.com/problemset/problem/1200/E",
+              "rating": 2000
+            },
+            {
+              "name": "Симон и деление ритма",
+              "url": "https://codeforces.com/contest/2205/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Тавас и Малекас",
+              "url": "https://codeforces.com/problemset/problem/535/D",
+              "rating": 1900
+            },
+            {
+              "name": "Ошибка передачи сообщения (сложная версия)",
+              "url": "https://codeforces.com/contest/2010/problem/C2",
+              "rating": 1700
+            },
+            {
+              "name": "Гимн Берляндии",
+              "url": "https://codeforces.com/contest/808/problem/G",
+              "rating": 2300
+            },
+            {
+              "name": "Счастливая общая подпоследовательность",
+              "url": "https://codeforces.com/problemset/problem/346/B",
+              "rating": 2000
+            },
+            {
+              "name": "Пароль",
+              "url": "https://codeforces.com/problemset/problem/126/B",
+              "rating": 1700
+            },
+            {
+              "name": "Война корпораций",
+              "url": "https://codeforces.com/contest/625/problem/B",
+              "rating": 1200
+            }
+          ]
+        },
+        "Хеширование": {
+          "tasks": [
+            {
+              "name": "Удаление повторов",
+              "url": "https://codeforces.com/contest/19/problem/C",
+              "rating": 2200
+            },
+            {
+              "name": "Палиндромность",
+              "url": "https://codeforces.com/contest/7/problem/D",
+              "rating": 2200
+            },
+            {
+              "name": "Проверь транскрипцию",
+              "url": "https://codeforces.com/problemset/problem/1056/E",
+              "rating": 2100
+            },
+            {
+              "name": "Сжатие строки",
+              "url": "https://codeforces.com/contest/825/problem/F",
+              "rating": 2400
+            },
+            {
+              "name": "Палиндромная характеристика",
+              "url": "https://codeforces.com/contest/835/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Тест",
+              "url": "https://codeforces.com/problemset/problem/25/E",
+              "rating": 2200
+            },
+            {
+              "name": "МУХ и стенки из кубиков",
+              "url": "https://codeforces.com/problemset/problem/471/D",
+              "rating": 1800
+            },
+            {
+              "name": "Непалиндромная подстрока",
+              "url": "https://codeforces.com/contest/1943/problem/B",
+              "rating": 2000
+            },
+            {
+              "name": "Кефа и часы",
+              "url": "https://codeforces.com/problemset/problem/580/E",
+              "rating": 2500
+            },
+            {
+              "name": "Цифровое дерево",
+              "url": "https://codeforces.com/contest/716/problem/E",
+              "rating": 2700
+            },
+            {
+              "name": "Пароль",
+              "url": "https://codeforces.com/problemset/problem/126/B",
+              "rating": 1700
+            },
+            {
+              "name": "Преобразование строки",
+              "url": "https://codeforces.com/problemset/problem/119/D",
+              "rating": 2500
+            },
+            {
+              "name": "Профили-двойники",
+              "url": "https://codeforces.com/problemset/problem/154/C",
+              "rating": 2300
+            }
+          ]
+        },
+        "Алгоритм Ахо-Корасик": {
+          "tasks": [
+            {
+              "name": "Частота строки",
+              "url": "https://codeforces.com/problemset/problem/963/D",
+              "rating": 2500
+            },
+            {
+              "name": "x-простые подстроки",
+              "url": "https://codeforces.com/problemset/problem/1400/F",
+              "rating": 2800
+            },
+            {
+              "name": "Группы скобок",
+              "url": "https://codeforces.com/contest/2144/problem/F",
+              "rating": 2700
+            },
+            {
+              "name": "Электронное правительство",
+              "url": "https://codeforces.com/contest/163/problem/E",
+              "rating": 2800
+            }
+          ]
+        },
+        "Наибольшая общая подпоследовательность": {
+          "tasks": [
+            {
+              "name": "Три строки",
+              "url": "https://codeforces.com/contest/2050/problem/E",
+              "rating": 1500
+            },
+            {
+              "name": "Gargari и перестановки",
+              "url": "https://codeforces.com/problemset/problem/463/D",
+              "rating": 1900
+            }
+          ]
+        },
+        "Алгоритм Манакера": {
+          "tasks": [
+            {
+              "name": "Префиксно-суффиксный палиндром (усложненная версия)",
+              "url": "https://codeforces.com/contest/1326/problem/D2",
+              "rating": 1800
+            },
+            {
+              "name": "Непалиндромная подстрока",
+              "url": "https://codeforces.com/contest/1943/problem/B",
+              "rating": 2000
+            }
+          ]
+        },
+        "Суффиксный массив": {
+          "tasks": [
+            {
+              "name": "Суффиксный массив и LCP",
+              "url": "https://codeforces.com/edu/course/2/lesson/2/4/practice/contest/269119/problem/A",
+              "rating": 1500
+            },
+            {
+              "name": "Поиск подстрок",
+              "url": "https://codeforces.com/edu/course/2/lesson/2/3/practice/contest/269118/problem/A",
+              "rating": 1600
+            },
+            {
+              "name": "Сортировка подстрок",
+              "url": "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Марсианские строки",
+              "url": "https://codeforces.com/problemset/problem/149/E",
+              "rating": 2300
+            },
+            {
+              "name": "Частота строки",
+              "url": "https://codeforces.com/problemset/problem/963/D",
+              "rating": 2500
+            },
+            {
+              "name": "Обманщик",
+              "url": "https://codeforces.com/contest/822/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Запрещённые индексы",
+              "url": "https://codeforces.com/contest/873/problem/F",
+              "rating": 2400
+            },
+            {
+              "name": "Грани",
+              "url": "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Рефрен",
+              "url": "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Периодическая подстрока",
+              "url": "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/F",
+              "rating": 2000
+            },
+            {
+              "name": "Два префикса",
+              "url": "https://codeforces.com/contest/1090/problem/J",
+              "rating": 2600
+            },
+            {
+              "name": "Бумажная работа",
+              "url": "https://codeforces.com/problemset/problem/653/F",
+              "rating": 2600
+            }
+          ]
+        },
+        "Бор и Двоичный Бор": {
+          "tasks": [
+            {
+              "name": "Дерево и XOR",
+              "url": "https://codeforces.com/contest/1055/problem/F",
+              "rating": 2900
+            },
+            {
+              "name": "Лиза и марсиане",
+              "url": "https://codeforces.com/contest/1851/problem/F",
+              "rating": 1800
+            },
+            {
+              "name": "Значения массивов",
+              "url": "https://codeforces.com/contest/1983/problem/F",
+              "rating": 2500
+            },
+            {
+              "name": "Яся и таинственное дерево",
+              "url": "https://codeforces.com/contest/1980/problem/G",
+              "rating": 2300
+            },
+            {
+              "name": "Перестановки с неподвижным префиксом",
+              "url": "https://codeforces.com/contest/1792/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Коллапс строк",
+              "url": "https://codeforces.com/problemset/problem/1902/E",
+              "rating": 1900
+            },
+            {
+              "name": "Мультимножество Василия",
+              "url": "https://codeforces.com/contest/706/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Красивые подмассивы",
+              "url": "https://codeforces.com/problemset/problem/665/E",
+              "rating": 2100
+            },
+            {
+              "name": "Максимизация Сосиски",
+              "url": "https://codeforces.com/problemset/problem/282/E",
+              "rating": 2200
+            },
+            {
+              "name": "Выбор командира",
+              "url": "https://codeforces.com/contest/817/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Хорошие подстрочки",
+              "url": "https://codeforces.com/contest/271/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Укоротить массив",
+              "url": "https://codeforces.com/contest/2093/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Витя и странный урок",
+              "url": "https://codeforces.com/contest/842/problem/D",
+              "rating": 2000
+            },
+            {
+              "name": "Много игр",
+              "url": "https://codeforces.com/contest/456/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Короткий код",
+              "url": "https://codeforces.com/contest/965/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "XOR-инверсии",
+              "url": "https://codeforces.com/contest/1416/problem/C",
+              "rating": 2000
+            }
+          ]
+        }
+      }
+    },
+    "Базовые идеи": {
+      "subtags": {
+        "Префикс суммы": {
+          "tasks": [
+            {
+              "name": "Раздражающая игра",
+              "url": "https://codeforces.com/contest/2158/problem/C",
+              "rating": 1400
+            },
+            {
+              "name": "Черви",
+              "url": "https://codeforces.com/problemset/problem/474/B",
+              "rating": 1200
+            },
+            {
+              "name": "Максимальная сумма",
+              "url": "https://codeforces.com/contest/1832/problem/B",
+              "rating": 1100
+            },
+            {
+              "name": "Никита и строка",
+              "url": "https://codeforces.com/problemset/problem/877/B",
+              "rating": 1500
+            },
+            {
+              "name": "Удаление троек",
+              "url": "https://codeforces.com/contest/2152/problem/C",
+              "rating": 1400
+            },
+            {
+              "name": "Забор",
+              "url": "https://codeforces.com/problemset/problem/363/B",
+              "rating": 1100
+            },
+            {
+              "name": "Нечётные запросы",
+              "url": "https://codeforces.com/contest/1807/problem/D",
+              "rating": 900
+            },
+            {
+              "name": "Камни Курияма Мираи",
+              "url": "codeforces.com/contest/433/problem/B",
+              "rating": 1200
+            },
+            {
+              "name": "Операция над подмассивом",
+              "url": "https://codeforces.com/problemset/problem/2169/C",
+              "rating": 1300
+            }
+          ]
+        },
+        "Бинарный поиск": {
+          "tasks": [
+            {
+              "name": "Алена и узкий холодильник",
+              "url": "https://codeforces.com/contest/1119/problem/B",
+              "rating": 1300
+            },
+            {
+              "name": "Шарики мороженого",
+              "url": "https://codeforces.com/problemset/problem/1862/D",
+              "rating": 1300
+            },
+            {
+              "name": "Максимальная медиана",
+              "url": "https://codeforces.com/contest/1201/problem/C",
+              "rating": 1400
+            },
+            {
+              "name": "Организация расписания",
+              "url": "https://codeforces.com/problemset/problem/1701/C",
+              "rating": 1400
+            },
+            {
+              "name": "Бан в чате",
+              "url": "https://codeforces.com/problemset/problem/1612/C",
+              "rating": 1300
+            },
+            {
+              "name": "Прыжки по отрезкам",
+              "url": "https://codeforces.com/problemset/problem/1907/D",
+              "rating": 1400
+            },
+            {
+              "name": "Идеальная команда",
+              "url": "https://codeforces.com/problemset/problem/1221/C",
+              "rating": 1200
+            },
+            {
+              "name": "Красивая перестановка",
+              "url": "https://codeforces.com/contest/2162/problem/D",
+              "rating": 1400
+            },
+            {
+              "name": "Очередная задача про пары, удовлетворяющие неравенству",
+              "url": "https://codeforces.com/problemset/problem/1703/F",
+              "rating": 1300
+            },
+            {
+              "name": "Запросы о количестве не превосходящих элементов",
+              "url": "https://codeforces.com/contest/600/problem/B",
+              "rating": 1300
+            },
+            {
+              "name": "Генератор тестов",
+              "url": "https://codeforces.com/contest/2203/problem/C",
+              "rating": 1500
+            },
+            {
+              "name": "Частное и остаток",
+              "url": "https://codeforces.com/contest/2170/problem/C",
+              "rating": 1300
+            },
+            {
+              "name": "Мафия",
+              "url": "https://codeforces.com/problemset/problem/348/A",
+              "rating": 1600
+            },
+            {
+              "name": "Интересная функция",
+              "url": "https://codeforces.com/problemset/problem/1538/F",
+              "rating": 1500
+            },
+            {
+              "name": "Робин Гуд в городе",
+              "url": "https://codeforces.com/contest/2014/problem/C",
+              "rating": 1100
+            },
+            {
+              "name": "Да будет свет!",
+              "url": "https://codeforces.com/contest/2020/problem/B",
+              "rating": 1200
+            },
+            {
+              "name": "Бомба",
+              "url": "https://codeforces.com/contest/1996/problem/F",
+              "rating": 1900
+            }
+          ]
+        },
+        "Два указателя": {
+          "tasks": [
+            {
+              "name": "Right Left Wrong",
+              "url": "https://codeforces.com/problemset/problem/2000/D",
+              "rating": 1200
+            },
+            {
+              "name": "Количество пар",
+              "url": "https://codeforces.com/problemset/problem/1538/C",
+              "rating": 1300
+            },
+            {
+              "name": "Сотовая связь",
+              "url": "https://codeforces.com/contest/702/problem/C",
+              "rating": 1500
+            },
+            {
+              "name": "Очистка телефона",
+              "url": "https://codeforces.com/problemset/problem/1475/D",
+              "rating": 1800
+            },
+            {
+              "name": "Частное и остаток",
+              "url": "https://codeforces.com/contest/2170/problem/C",
+              "rating": 1300
+            },
+            {
+              "name": "Они повсюду",
+              "url": "https://codeforces.com/problemset/problem/701/C",
+              "rating": 1500
+            },
+            {
+              "name": "Три части массива",
+              "url": "https://codeforces.com/problemset/problem/1006/C",
+              "rating": 1200
+            },
+            {
+              "name": "Скрытые знания древних",
+              "url": "https://codeforces.com/problemset/problem/2149/E",
+              "rating": 1500
+            },
+            {
+              "name": "Игра с раскрашиванием",
+              "url": "https://codeforces.com/problemset/problem/2112/C",
+              "rating": 1300
+            },
+            {
+              "name": "Разделение",
+              "url": "https://codeforces.com/problemset/problem/2148/E",
+              "rating": 1200
+            },
+            {
+              "name": "Мастер тестов",
+              "url": "https://codeforces.com/contest/1777/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Дополни граф",
+              "url": "https://codeforces.com/problemset/problem/715/B",
+              "rating": 2300
+            }
+          ]
+        },
+        "Тернарный поиск": {
+          "tasks": [
+            {
+              "name": "Соревнование по арифметике",
+              "url": "https://codeforces.com/contest/2132/problem/E",
+              "rating": 1700
+            },
+            {
+              "name": "Подарочный набор",
+              "url": "https://codeforces.com/problemset/problem/1538/G",
+              "rating": 2100
+            },
+            {
+              "name": "Деву и братишка",
+              "url": "https://codeforces.com/problemset/problem/439/D",
+              "rating": 1700
+            },
+            {
+              "name": "Линейка (сложная версия)",
+              "url": "https://codeforces.com/contest/1999/problem/G2",
+              "rating": 1700
+            },
+            {
+              "name": "Слабость и бедность",
+              "url": "https://codeforces.com/problemset/problem/578/C",
+              "rating": 2000
+            },
+            {
+              "name": "Вика и бонусы",
+              "url": "https://codeforces.com/problemset/problem/1848/D",
+              "rating": 2200
+            },
+            {
+              "name": "Заповедник",
+              "url": "https://codeforces.com/problemset/problem/1059/D",
+              "rating": 2200
+            },
+            {
+              "name": "Реставрационное расстояние",
+              "url": "https://codeforces.com/contest/1355/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Простая асимметрия",
+              "url": "https://codeforces.com/contest/626/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Подарочный набор",
+              "url": "https://codeforces.com/problemset/problem/1538/G",
+              "rating": 2100
+            },
+            {
+              "name": "Подземелья Одинокой горы",
+              "url": "https://codeforces.com/contest/1928/problem/D",
+              "rating": 1900
+            }
+          ]
+        },
+        "Интерактивные задачи": {
+          "tasks": [
+            {
+              "name": "Взлом чисел (простая версия)",
+              "url": "https://codeforces.com/contest/2109/problem/C1",
+              "rating": 1500
+            },
+            {
+              "name": "Угадать количество делителей",
+              "url": "https://codeforces.com/problemset/problem/1355/F",
+              "rating": 2600
+            },
+            {
+              "name": "Потерянный корень",
+              "url": "https://codeforces.com/problemset/problem/1061/F",
+              "rating": 2400
+            },
+            {
+              "name": "Интервью",
+              "url": "https://codeforces.com/contest/1807/problem/E",
+              "rating": 1300
+            },
+            {
+              "name": "Найти наибольшее (простая версия)",
+              "url": "https://codeforces.com/problemset/problem/1486/C1",
+              "rating": 1600
+            },
+            {
+              "name": "Медвежонок и простота за 100",
+              "url": "https://codeforces.com/problemset/problem/679/A",
+              "rating": 1400
+            },
+            {
+              "name": "Скрытые перестановки",
+              "url": "https://codeforces.com/problemset/problem/1621/C",
+              "rating": 1700
+            },
+            {
+              "name": "XOR-угадайка",
+              "url": "https://codeforces.com/problemset/problem/1207/E",
+              "rating": 1900
+            },
+            {
+              "name": "Омкар и смысл жизни",
+              "url": "https://codeforces.com/problemset/problem/1583/D",
+              "rating": 1800
+            },
+            {
+              "name": "Битовая угадайка",
+              "url": "https://codeforces.com/problemset/problem/1780/D",
+              "rating": 1800
+            },
+            {
+              "name": "Красивая перестановка",
+              "url": "https://codeforces.com/contest/2162/problem/D",
+              "rating": 1400
+            },
+            {
+              "name": "Нижний мир",
+              "url": "https://codeforces.com/contest/2133/problem/C",
+              "rating": 1400
+            },
+            {
+              "name": "Найдите ноль",
+              "url": "https://codeforces.com/contest/2209/problem/C",
+              "rating": 1400
+            },
+            {
+              "name": "Потерянное дерево",
+              "url": "https://codeforces.com/contest/1534/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Заколдованный артефакт",
+              "url": "https://codeforces.com/problemset/problem/1282/D",
+              "rating": 2300
+            },
+            {
+              "name": "Шоколадный заяц",
+              "url": "https://codeforces.com/problemset/problem/1407/C",
+              "rating": 1600
+            },
+            {
+              "name": "Битовые запросы (упрощенная версия)",
+              "url": "https://codeforces.com/problemset/problem/1451/E1",
+              "rating": 2000
+            },
+            {
+              "name": "X-OR",
+              "url": "https://codeforces.com/problemset/problem/1364/E",
+              "rating": 2700
+            },
+            {
+              "name": "Попробуй угадай",
+              "url": "https://codeforces.com/problemset/problem/1556/D",
+              "rating": 1800
+            },
+            {
+              "name": "Линейка (лёгкая версия)",
+              "url": "https://codeforces.com/contest/1999/problem/G1",
+              "rating": 1500
+            },
+            {
+              "name": "Интерактивная задача на MAD",
+              "url": "https://codeforces.com/contest/2160/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Найдите последнее число",
+              "url": "https://codeforces.com/contest/2156/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Игра с модулем",
+              "url": "https://codeforces.com/problemset/problem/1104/D",
+              "rating": 2000
+            },
+            {
+              "name": "Арифметическая прогрессия",
+              "url": "https://codeforces.com/problemset/problem/1114/E",
+              "rating": 2200
+            },
+            {
+              "name": "Параллельные показательные матчи Ани",
+              "url": "https://codeforces.com/problemset/problem/1779/E",
+              "rating": 2400
+            }
+          ]
+        }
+      }
+    },
+    "Декомпозиции задач": {
+      "subtags": {
+        "Базовая корневая декомопозиция": {
+          "tasks": [
+            {
+              "name": "Запросы на массовое обновление",
+              "url": "https://codeforces.com/problemset/problem/911/G",
+              "rating": 2500
+            },
+            {
+              "name": "Гравити Фолз",
+              "url": "https://codeforces.com/contest/2148/problem/F",
+              "rating": 1800
+            }
+          ]
+        },
+        "Алгоритм Мо": {
+          "tasks": [
+            {
+              "name": "Мощный массив",
+              "url": "https://codeforces.com/contest/86/problem/D",
+              "rating": 2200
+            },
+            {
+              "name": "XOR и любимое число",
+              "url": "https://codeforces.com/contest/617/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Маленький Слоник и массив",
+              "url": "https://codeforces.com/contest/220/problem/B",
+              "rating": 1800
+            },
+            {
+              "name": "Стрельба из лука Робина Гуда",
+              "url": "https://codeforces.com/contest/2014/problem/H",
+              "rating": 1900
+            },
+            {
+              "name": "Дерево и запросы",
+              "url": "https://codeforces.com/problemset/problem/375/D",
+              "rating": 2400
+            },
+            {
+              "name": "Джефф и удаление периодов",
+              "url": "https://codeforces.com/contest/351/problem/D",
+              "rating": 2700
+            },
+            {
+              "name": "Судьба",
+              "url": "https://codeforces.com/problemset/problem/840/D",
+              "rating": 2500
+            },
+            {
+              "name": "Аня и книги",
+              "url": "https://codeforces.com/contest/877/problem/F",
+              "rating": 2300
+            },
+            {
+              "name": "Точки на плоскости",
+              "url": "https://codeforces.com/contest/577/problem/E",
+              "rating": 2100
+            }
+          ]
+        },
+        "Разделение на тяжелые и легкие": {
+          "tasks": [
+            {
+              "name": "Маленький Слоник и массив",
+              "url": "https://codeforces.com/contest/220/problem/B",
+              "rating": 1800
+            },
+            {
+              "name": "Ваня и сокровище",
+              "url": "https://codeforces.com/contest/677/problem/D",
+              "rating": 2300
+            },
+            {
+              "name": "Очередная задача про красивые пары",
+              "url": "https://codeforces.com/contest/2196/problem/B",
+              "rating": 1600
+            },
+            {
+              "name": "Суммы подмножеств",
+              "url": "https://codeforces.com/contest/348/problem/C",
+              "rating": 2500
+            },
+            {
+              "name": "Лунки",
+              "url": "https://codeforces.com/problemset/problem/13/E",
+              "rating": 2700
+            },
+            {
+              "name": "Перестановка и запросы",
+              "url": "https://codeforces.com/contest/1619/problem/H",
+              "rating": 2400
+            },
+            {
+              "name": "Техническое обслуживание поездов",
+              "url": "https://codeforces.com/contest/1580/problem/C",
+              "rating": 2200
+            },
+            {
+              "name": "Цветное дерево Хуана",
+              "url": "https://codeforces.com/contest/2155/problem/F",
+              "rating": 2800
+            },
+            {
+              "name": "Пчеленок и подотрезки",
+              "url": "https://codeforces.com/contest/1582/problem/E",
+              "rating": 2000
+            },
+            {
+              "name": "Сумма на прогрессии",
+              "url": "https://codeforces.com/contest/1921/problem/F",
+              "rating": 1900
+            },
+            {
+              "name": "Цветной граф мистера Китаюта",
+              "url": "https://codeforces.com/contest/506/problem/D",
+              "rating": 2400
+            }
+          ]
+        },
+        "Центроидная декомпозиция": {
+          "tasks": [
+            {
+              "name": "Командир Ciel",
+              "url": "https://codeforces.com/contest/321/problem/C",
+              "rating": 2100
+            },
+            {
+              "name": "Ксюша и дерево",
+              "url": "https://codeforces.com/problemset/problem/342/E",
+              "rating": 2400
+            },
+            {
+              "name": "Палиндромы в дереве",
+              "url": "https://codeforces.com/contest/914/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Махмуд и xor-поездка",
+              "url": "https://codeforces.com/problemset/problem/766/E",
+              "rating": 2100
+            },
+            {
+              "name": "Посёлок (Максимум)",
+              "url": "https://codeforces.com/contest/1387/problem/B2",
+              "rating": 2500
+            },
+            {
+              "name": "Цифровое дерево",
+              "url": "https://codeforces.com/contest/716/problem/E",
+              "rating": 2700
+            },
+            {
+              "name": "Пари Шерлока и Мориарти",
+              "url": "https://codeforces.com/contest/776/problem/F",
+              "rating": 2800
+            },
+            {
+              "name": "Близкие вершины",
+              "url": "https://codeforces.com/contest/293/problem/E",
+              "rating": 2700
+            }
+          ]
+        },
+        "Meet-in-the-middle": {
+          "tasks": [
+            {
+              "name": "Максимальная подпоследовательность",
+              "url": "https://codeforces.com/contest/888/problem/E",
+              "rating": 1800
+            },
+            {
+              "name": "Xor-пути",
+              "url": "https://codeforces.com/contest/1006/problem/F",
+              "rating": 2100
+            },
+            {
+              "name": "Lizard Era: Beginning",
+              "url": "https://codeforces.com/problemset/problem/585/D",
+              "rating": 2300
+            },
+            {
+              "name": "Простой подарок",
+              "url": "https://codeforces.com/contest/912/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Algebra Flash",
+              "url": "https://codeforces.com/problemset/problem/1767/E",
+              "rating": 2500
+            },
+            {
+              "name": "Сделай их похожими",
+              "url": "https://codeforces.com/problemset/problem/1257/F",
+              "rating": 2400
+            },
+            {
+              "name": "Number Clicker",
+              "url": "https://codeforces.com/contest/995/problem/E",
+              "rating": 2700
+            }
+          ]
+        },
+        "Сжатие координат": {
+          "tasks": [
+            {
+              "name": "Подсчет покрытых точек",
+              "url": "https://codeforces.com/problemset/problem/1000/C",
+              "rating": 1700
+            },
+            {
+              "name": "Перемешивание песен",
+              "url": "https://codeforces.com/contest/1950/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Бесконечные инверсии",
+              "url": "https://codeforces.com/contest/540/problem/E",
+              "rating": 2100
+            },
+            {
+              "name": "Выключение телевизора",
+              "url": "https://codeforces.com/contest/863/problem/E",
+              "rating": 2000
+            }
+          ]
+        }
+      }
+    },
+    "Динамическое программирование": {
+      "subtags": {
+        "Базовое динамическое программирование и Рюкзаки": {
+          "tasks": [
+            {
+              "name": "Фарфор",
+              "url": "https://codeforces.com/contest/148/problem/E",
+              "rating": 1900
+            },
+            {
+              "name": "Очередная задача на минимизацию",
+              "url": "https://codeforces.com/contest/1637/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Картинки с котиками (простая версия)",
+              "url": "https://codeforces.com/contest/1077/problem/F1",
+              "rating": 1900
+            },
+            {
+              "name": "Wi-Fi",
+              "url": "https://codeforces.com/contest/1216/problem/F",
+              "rating": 2100
+            },
+            {
+              "name": "Пути Фибоначчи",
+              "url": "https://codeforces.com/contest/2176/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Уравнивание",
+              "url": "https://codeforces.com/problemset/problem/2075/D",
+              "rating": 2000
+            },
+            {
+              "name": "Совет мрамора",
+              "url": "https://codeforces.com/contest/2166/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Смотрим на башни (простая версия)",
+              "url": "https://codeforces.com/contest/2144/problem/E1",
+              "rating": 2200
+            },
+            {
+              "name": "Сортировка блинчиков",
+              "url": "https://codeforces.com/contest/1675/problem/G",
+              "rating": 2300
+            },
+            {
+              "name": "Невыносимая лёгкость гирек",
+              "url": "https://codeforces.com/contest/1078/problem/B",
+              "rating": 2100
+            },
+            {
+              "name": "Рюкзак",
+              "url": "https://codeforces.com/problemset/problem/1132/E",
+              "rating": 2300
+            },
+            {
+              "name": "Каникулы",
+              "url": "https://codeforces.com/problemset/problem/698/A",
+              "rating": 1400
+            },
+            {
+              "name": "Дима и салат",
+              "url": "https://codeforces.com/problemset/problem/366/C",
+              "rating": 1900
+            },
+            {
+              "name": "Запросы произведения",
+              "url": "https://codeforces.com/contest/2193/problem/E",
+              "rating": 1300
+            },
+            {
+              "name": "Доставка пиццы",
+              "url": "https://codeforces.com/contest/2193/problem/F",
+              "rating": 1600
+            },
+            {
+              "name": "Блоковая последовательность",
+              "url": "https://codeforces.com/problemset/problem/1881/E",
+              "rating": 1500
+            },
+            {
+              "name": "Круглое подмножество",
+              "url": "https://codeforces.com/contest/837/problem/D",
+              "rating": 2100
+            },
+            {
+              "name": "Кузнечное дело",
+              "url": "https://codeforces.com/contest/1989/problem/D",
+              "rating": 1900
+            },
+            {
+              "name": "Мистер Китаюта, охотник за сокровищами",
+              "url": "https://codeforces.com/problemset/problem/506/A",
+              "rating": 1900
+            },
+            {
+              "name": "Сумма по модулю",
+              "url": "https://codeforces.com/contest/577/problem/B",
+              "rating": 1900
+            },
+            {
+              "name": "Значения, которые возможно набрать",
+              "url": "https://codeforces.com/contest/687/problem/C",
+              "rating": 1900
+            },
+            {
+              "name": "Рюкзак",
+              "url": "https://codeforces.com/contest/1446/problem/A",
+              "rating": 1300
+            },
+            {
+              "name": "Mortal Kombat Tower",
+              "url": "https://codeforces.com/problemset/problem/1418/C",
+              "rating": 1500
+            },
+            {
+              "name": "Минимизация суммы",
+              "url": "https://codeforces.com/problemset/problem/1969/C",
+              "rating": 1700
+            },
+            {
+              "name": "Цветные шары",
+              "url": "https://codeforces.com/problemset/problem/1954/D",
+              "rating": 1800
+            },
+            {
+              "name": "Наименее круглый путь",
+              "url": "https://codeforces.com/contest/2/problem/B",
+              "rating": 2000
+            },
+            {
+              "name": "Хрупкий амфитеатр Arpa и ценные девушки Mehrdad",
+              "url": "https://codeforces.com/contest/742/problem/D",
+              "rating": 1600
+            },
+            {
+              "name": "Новый рейтинг",
+              "url": "https://codeforces.com/contest/2029/problem/C",
+              "rating": 1700
+            },
+            {
+              "name": "Minecraft",
+              "url": "https://codeforces.com/contest/1994/problem/G",
+              "rating": 2600
+            },
+            {
+              "name": "От 1 до бесконечности",
+              "url": "https://codeforces.com/problemset/problem/2132/D",
+              "rating": 1600
+            },
+            {
+              "name": "Джи, видишь?",
+              "url": "https://codeforces.com/contest/1670/problem/F",
+              "rating": 2400
+            },
+            {
+              "name": "Суммы цифр",
+              "url": "https://codeforces.com/problemset/problem/509/C",
+              "rating": 2000
+            },
+            {
+              "name": "Сумма на отрезке",
+              "url": "https://codeforces.com/contest/1073/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Шикарные числа",
+              "url": "https://codeforces.com/contest/1036/problem/C",
+              "rating": 1900
+            },
+            {
+              "name": "Спонсор твоих проблем",
+              "url": "https://codeforces.com/contest/2121/problem/E",
+              "rating": 1500
+            },
+            {
+              "name": "Маленький Слоник и промежуток",
+              "url": "https://codeforces.com/problemset/problem/204/A",
+              "rating": 1500
+            }
+          ]
+        },
+        "Динамика по битмаскам": {
+          "tasks": [
+            {
+              "name": "Простая задача",
+              "url": "https://codeforces.com/contest/11/problem/D",
+              "rating": 2200
+            },
+            {
+              "name": "Выбор команды",
+              "url": "https://codeforces.com/contest/1316/problem/E",
+              "rating": 2300
+            },
+            {
+              "name": "Перемешивание песен",
+              "url": "https://codeforces.com/contest/1950/problem/G",
+              "rating": 1900
+            },
+            {
+              "name": "Кефа и блюда",
+              "url": "https://codeforces.com/problemset/problem/580/D",
+              "rating": 1800
+            },
+            {
+              "name": "Обход графа",
+              "url": "https://codeforces.com/problemset/problem/21/D",
+              "rating": 2400
+            },
+            {
+              "name": "Квадратные подмножества",
+              "url": "https://codeforces.com/contest/895/problem/C",
+              "rating": 2000
+            },
+            {
+              "name": "Нахождение порядка",
+              "url": "https://codeforces.com/problemset/problem/8/C",
+              "rating": 2000
+            },
+            {
+              "name": "Рыбы",
+              "url": "https://codeforces.com/problemset/problem/16/E",
+              "rating": 1900
+            },
+            {
+              "name": "Маленькая пони и ларец гармонии",
+              "url": "https://codeforces.com/contest/453/problem/B",
+              "rating": 2000
+            },
+            {
+              "name": "Очередной турнир ситхов",
+              "url": "https://codeforces.com/contest/678/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Секрет фестиваля раскрыт",
+              "url": "https://codeforces.com/problemset/problem/757/D",
+              "rating": 2200
+            },
+            {
+              "name": "Ядерный синтез",
+              "url": "https://codeforces.com/problemset/problem/71/E",
+              "rating": 2200
+            },
+            {
+              "name": "Максимальный путь",
+              "url": "https://codeforces.com/contest/762/problem/D",
+              "rating": 2300
+            },
+            {
+              "name": "2048",
+              "url": "https://codeforces.com/problemset/problem/413/D",
+              "rating": 2000
+            },
+            {
+              "name": "Прайм Гейминг (простая версия)",
+              "url": "https://codeforces.com/contest/2140/problem/E1",
+              "rating": 2200
+            },
+            {
+              "name": "Покупка клавиатуры",
+              "url": "https://codeforces.com/problemset/problem/1238/E",
+              "rating": 2200
+            },
+            {
+              "name": "Двоичная табличка",
+              "url": "https://codeforces.com/contest/662/problem/C",
+              "rating": 2600
+            },
+            {
+              "name": "Прайм Гейминг (сложная версия)",
+              "url": "https://codeforces.com/contest/2140/problem/E2",
+              "rating": 2500
+            }
+          ]
+        },
+        "Разделяй и властвуй": {
+          "tasks": [
+            {
+              "name": "Ciel и гондолы",
+              "url": "https://codeforces.com/contest/321/problem/E",
+              "rating": 2600
+            },
+            {
+              "name": "Кондитерская",
+              "url": "https://codeforces.com/contest/833/problem/B",
+              "rating": 2200
+            },
+            {
+              "name": "Уровни и регионы",
+              "url": "https://codeforces.com/contest/673/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Игра в разделения",
+              "url": "https://codeforces.com/contest/1527/problem/E",
+              "rating": 2500
+            },
+            {
+              "name": "Очередная задача минимизации",
+              "url": "https://codeforces.com/contest/868/problem/F",
+              "rating": 2500
+            },
+            {
+              "name": "Грузовики и города",
+              "url": "https://codeforces.com/contest/1101/problem/F",
+              "rating": 2400
+            },
+            {
+              "name": "Оптимальная вставка",
+              "url": "https://codeforces.com/problemset/problem/1601/C",
+              "rating": 2300
+            },
+            {
+              "name": "Конфеты и Камни",
+              "url": "https://codeforces.com/contest/101/problem/E",
+              "rating": 2500
+            }
+          ]
+        },
+        "Наибольшая возрастающая последовательность": {
+          "tasks": [
+            {
+              "name": "Короткая и длинная НВП",
+              "url": "https://codeforces.com/problemset/problem/1304/D",
+              "rating": 1800
+            },
+            {
+              "name": "LIS или перевернутая LIS?",
+              "url": "https://codeforces.com/problemset/problem/1682/C",
+              "rating": 1400
+            },
+            {
+              "name": "Последовательная подпоследовательность",
+              "url": "https://codeforces.com/contest/977/problem/F",
+              "rating": 1700
+            },
+            {
+              "name": "НОВП",
+              "url": "https://codeforces.com/problemset/problem/10/D",
+              "rating": 2800
+            },
+            {
+              "name": "Турист",
+              "url": "https://codeforces.com/contest/76/problem/F",
+              "rating": 2300
+            },
+            {
+              "name": "Наибольшие возрастающие подпоследовательности",
+              "url": "https://codeforces.com/problemset/problem/486/E",
+              "rating": 2200
+            },
+            {
+              "name": "НВП против НУП",
+              "url": "https://codeforces.com/problemset/gymProblem/101821/B",
+              "rating": 1900
+            }
+          ]
+        },
+        "Convex Hull Trick": {
+          "tasks": [
+            {
+              "name": "Обратно минимальное разбиение (простая версия)",
+              "url": "https://codeforces.com/contest/2160/problem/G1",
+              "rating": 2500
+            },
+            {
+              "name": "Уровни и регионы",
+              "url": "https://codeforces.com/contest/673/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Калила и Димна на лесозаготовках",
+              "url": "https://codeforces.com/contest/319/problem/C",
+              "rating": 2100
+            },
+            {
+              "name": "Медведь и боулинг 4",
+              "url": "https://codeforces.com/problemset/problem/660/F",
+              "rating": 2500
+            },
+            {
+              "name": "Орехус и прямоугольники",
+              "url": "https://codeforces.com/contest/1083/problem/E",
+              "rating": 2400
+            },
+            {
+              "name": "Мультипликативная сумма",
+              "url": "https://codeforces.com/problemset/problem/631/E",
+              "rating": 2600
+            },
+            {
+              "name": "Сбежать через лист",
+              "url": "https://codeforces.com/contest/932/problem/F",
+              "rating": 2700
+            },
+            {
+              "name": "Не спасаться",
+              "url": "https://codeforces.com/contest/1627/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Дядя Богдан и Проекции",
+              "url": "https://codeforces.com/contest/1388/problem/E",
+              "rating": 2700
+            },
+            {
+              "name": "Транспортировка кошек",
+              "url": "https://codeforces.com/contest/311/problem/B",
+              "rating": 2400
+            },
+            {
+              "name": "Cookie Clicker",
+              "url": "https://codeforces.com/problemset/problem/377/E",
+              "rating": 2800
+            },
+            {
+              "name": "Иглу-небоскреб",
+              "url": "https://codeforces.com/contest/91/problem/E",
+              "rating": 2500
+            }
+          ]
+        }
+      }
+    },
+    "Математика": {
+      "subtags": {
+        "Делители, Решето Эратосфена": {
+          "tasks": [
+            {
+              "name": "Kavi разбивает на пары",
+              "url": "https://codeforces.com/contest/1529/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Jzzhu и яблоки",
+              "url": "https://codeforces.com/contest/450/problem/E",
+              "rating": 2500
+            },
+            {
+              "name": "Игра в делимость",
+              "url": "https://codeforces.com/contest/2203/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Взаимно простые подпоследовательности",
+              "url": "https://codeforces.com/contest/803/problem/F",
+              "rating": 2000
+            },
+            {
+              "name": "Количество пар",
+              "url": "https://codeforces.com/contest/1499/problem/D",
+              "rating": 2100
+            },
+            {
+              "name": "Совершенные кратные Канадэ",
+              "url": "https://codeforces.com/problemset/problem/2173/C",
+              "rating": 1400
+            },
+            {
+              "name": "Т-простые числа",
+              "url": "https://codeforces.com/problemset/problem/230/B",
+              "rating": 1300
+            },
+            {
+              "name": "Проблема Нольдбаха",
+              "url": "https://codeforces.com/problemset/problem/17/A",
+              "rating": 1000
+            },
+            {
+              "name": "Коллайдеры",
+              "url": "https://codeforces.com/contest/154/problem/B",
+              "rating": 1600
+            },
+            {
+              "name": "Солдат и игра с числами",
+              "url": "https://codeforces.com/contest/546/problem/D",
+              "rating": 1700
+            },
+            {
+              "name": "Сокращение дробей",
+              "url": "https://codeforces.com/contest/222/problem/C",
+              "rating": 1800
+            },
+            {
+              "name": "Целостный массив",
+              "url": "https://codeforces.com/contest/1649/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Верхняя ячейка",
+              "url": "https://codeforces.com/contest/1561/problem/D2",
+              "rating": 1900
+            },
+            {
+              "name": "Произведения-степени",
+              "url": "https://codeforces.com/contest/1225/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Орак и LCM",
+              "url": "https://codeforces.com/contest/1349/problem/A",
+              "rating": 1600
+            },
+            {
+              "name": "Минимально возможный LCM",
+              "url": "https://codeforces.com/contest/1154/problem/G",
+              "rating": 2200
+            },
+            {
+              "name": "Шерлок и его девушка",
+              "url": "https://codeforces.com/contest/776/problem/B",
+              "rating": 1200
+            },
+            {
+              "name": "We Were Both Children",
+              "url": "https://codeforces.com/problemset/problem/1850/F",
+              "rating": 1300
+            },
+            {
+              "name": "Интересное соотношение",
+              "url": "https://codeforces.com/contest/2091/problem/E",
+              "rating": 1300
+            },
+            {
+              "name": "Любой ценой (простая версия)",
+              "url": "https://codeforces.com/contest/2154/problem/C1",
+              "rating": 1400
+            },
+            {
+              "name": "Еще одна задача с массивами",
+              "url": "https://codeforces.com/contest/2167/problem/D",
+              "rating": 1000
+            },
+            {
+              "name": "Безумная задача",
+              "url": "https://codeforces.com/problemset/problem/2044/E",
+              "rating": 1300
+            }
+          ]
+        },
+        "Перестановки": {
+          "tasks": [
+            {
+              "name": "Петя и перестановки",
+              "url": "https://codeforces.com/contest/987/problem/E",
+              "rating": 1800
+            },
+            {
+              "name": "Сакурако, Косукэ и перестановка",
+              "url": "https://codeforces.com/contest/2033/problem/E",
+              "rating": 1400
+            },
+            {
+              "name": "Удачная перестановка",
+              "url": "https://codeforces.com/contest/1768/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Бесконечный путь",
+              "url": "https://codeforces.com/problemset/problem/1327/D",
+              "rating": 2200
+            },
+            {
+              "name": "Корень квадратный из перестановки",
+              "url": "https://codeforces.com/contest/612/problem/E",
+              "rating": 2200
+            },
+            {
+              "name": "Ещё одна задача на сортировку",
+              "url": "https://codeforces.com/problemset/problem/1591/D",
+              "rating": 1900
+            },
+            {
+              "name": "Подсчет инверсий",
+              "url": "https://codeforces.com/contest/911/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Прекрасные числа",
+              "url": "https://codeforces.com/contest/300/problem/C",
+              "rating": 1800
+            },
+            {
+              "name": "Хоссам и комбинации",
+              "url": "https://codeforces.com/problemset/problem/1771/A",
+              "rating": 900
+            },
+            {
+              "name": "Производство снеговиков",
+              "url": "https://codeforces.com/contest/2182/problem/C",
+              "rating": 1200
+            },
+            {
+              "name": "Как ходит ладья?",
+              "url": "https://codeforces.com/problemset/problem/1957/C",
+              "rating": 1600
+            },
+            {
+              "name": "Рекламное агентство",
+              "url": "https://codeforces.com/contest/1475/problem/E",
+              "rating": 1600
+            },
+            {
+              "name": "Слияние множеств",
+              "url": "https://codeforces.com/problemset/problem/2146/B",
+              "rating": 1100
+            },
+            {
+              "name": "Чередуй!",
+              "url": "https://codeforces.com/contest/1879/problem/C",
+              "rating": 1300
+            },
+            {
+              "name": "Монопати",
+              "url": "https://codeforces.com/contest/2163/problem/C",
+              "rating": 1500
+            },
+            {
+              "name": "Украшение новогодней елки",
+              "url": "https://codeforces.com/contest/2182/problem/D",
+              "rating": 1600
+            },
+            {
+              "name": "Занимательный массив",
+              "url": "https://codeforces.com/problemset/problem/407/C",
+              "rating": 2500
+            }
+          ]
+        },
+        "Принцип включения-исключения": {
+          "tasks": [
+            {
+              "name": "Исследование Натлана",
+              "url": "https://codeforces.com/contest/2037/problem/G",
+              "rating": 2000
+            },
+            {
+              "name": "Посчитайте НОД",
+              "url": "https://codeforces.com/contest/1750/problem/D",
+              "rating": 1800
+            },
+            {
+              "name": "Подсчет хороших чисел",
+              "url": "https://codeforces.com/contest/2125/problem/C",
+              "rating": 1100
+            }
+          ]
+        }
+      }
+    }
+  }
+}

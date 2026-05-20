@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборник задач Codeforces</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+
+            <!-- CF Handle Widget -->
+            <div class="handle-widget">
+                <div class="handle-input-wrap">
+                    <span class="handle-icon">⌨</span>
+                    <input
+                        type="text"
+                        id="handleInput"
+                        class="handle-input"
+                        placeholder="Codeforces handle"
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+                    <button class="handle-btn" id="handleSubmit" title="Загрузить">→</button>
+                    <button class="handle-clear" id="handleClear" title="Сменить handle">✕</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <p class="hero-eyebrow">📚 Подготовка к соревнованиям</p>
+                <h1 class="hero-title">Сборник задач<br><span class="gradient-text">Codeforces</span></h1>
+                <p class="hero-desc">Структурированная подборка задач по темам и алгоритмам.<br>Выберите тему и решайте задачи от простых к сложным.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="stat-tasks">516</span>
+                        <span class="stat-label">Задач</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="themes-section">
+            <div class="container">
+                <h2 class="section-title">Темы</h2>
+                <div class="themes-grid">
+                    <!-- THEMES_START -->
+<a href="themes/bazovye-idei.html" class="theme-card" style="--card-accent: #5b9aff" data-urls='["https://codeforces.com/contest/2158/problem/C", "https://codeforces.com/problemset/problem/474/B", "https://codeforces.com/contest/1832/problem/B", "https://codeforces.com/problemset/problem/877/B", "https://codeforces.com/contest/2152/problem/C", "https://codeforces.com/problemset/problem/363/B", "https://codeforces.com/contest/1807/problem/D", "codeforces.com/contest/433/problem/B", "https://codeforces.com/problemset/problem/2169/C", "https://codeforces.com/contest/1119/problem/B", "https://codeforces.com/problemset/problem/1862/D", "https://codeforces.com/contest/1201/problem/C", "https://codeforces.com/problemset/problem/1701/C", "https://codeforces.com/problemset/problem/1612/C", "https://codeforces.com/problemset/problem/1907/D", "https://codeforces.com/problemset/problem/1221/C", "https://codeforces.com/contest/2162/problem/D", "https://codeforces.com/problemset/problem/1703/F", "https://codeforces.com/contest/600/problem/B", "https://codeforces.com/contest/2203/problem/C", "https://codeforces.com/contest/2170/problem/C", "https://codeforces.com/problemset/problem/348/A", "https://codeforces.com/problemset/problem/1538/F", "https://codeforces.com/contest/2014/problem/C", "https://codeforces.com/contest/2020/problem/B", "https://codeforces.com/contest/1996/problem/F", "https://codeforces.com/problemset/problem/2000/D", "https://codeforces.com/problemset/problem/1538/C", "https://codeforces.com/contest/702/problem/C", "https://codeforces.com/problemset/problem/1475/D", "https://codeforces.com/contest/2170/problem/C", "https://codeforces.com/problemset/problem/701/C", "https://codeforces.com/problemset/problem/1006/C", "https://codeforces.com/problemset/problem/2149/E", "https://codeforces.com/problemset/problem/2112/C", "https://codeforces.com/problemset/problem/2148/E", "https://codeforces.com/contest/1777/problem/C", "https://codeforces.com/problemset/problem/715/B", "https://codeforces.com/contest/2132/problem/E", "https://codeforces.com/problemset/problem/1538/G", "https://codeforces.com/problemset/problem/439/D", "https://codeforces.com/contest/1999/problem/G2", "https://codeforces.com/problemset/problem/578/C", "https://codeforces.com/problemset/problem/1848/D", "https://codeforces.com/problemset/problem/1059/D", "https://codeforces.com/contest/1355/problem/E", "https://codeforces.com/contest/626/problem/E", "https://codeforces.com/problemset/problem/1538/G", "https://codeforces.com/contest/1928/problem/D", "https://codeforces.com/contest/2109/problem/C1", "https://codeforces.com/problemset/problem/1355/F", "https://codeforces.com/problemset/problem/1061/F", "https://codeforces.com/contest/1807/problem/E", "https://codeforces.com/problemset/problem/1486/C1", "https://codeforces.com/problemset/problem/679/A", "https://codeforces.com/problemset/problem/1621/C", "https://codeforces.com/problemset/problem/1207/E", "https://codeforces.com/problemset/problem/1583/D", "https://codeforces.com/problemset/problem/1780/D", "https://codeforces.com/contest/2162/problem/D", "https://codeforces.com/contest/2133/problem/C", "https://codeforces.com/contest/2209/problem/C", "https://codeforces.com/contest/1534/problem/D", "https://codeforces.com/problemset/problem/1282/D", "https://codeforces.com/problemset/problem/1407/C", "https://codeforces.com/problemset/problem/1451/E1", "https://codeforces.com/problemset/problem/1364/E", "https://codeforces.com/problemset/problem/1556/D", "https://codeforces.com/contest/1999/problem/G1", "https://codeforces.com/contest/2160/problem/D", "https://codeforces.com/contest/2156/problem/D", "https://codeforces.com/problemset/problem/1104/D", "https://codeforces.com/problemset/problem/1114/E", "https://codeforces.com/problemset/problem/1779/E"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Базовые идеи</h3>
+            <span class="theme-card-badge">74 задачи</span>
+        </div>
+        <p class="theme-card-subtags">Префикс суммы, Бинарный поиск, Два указателя...</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>5 подтем</span>
+                <span>Рейтинг: 900 – 2700</span>
+            </div>
+            <span class="theme-card-avg rating-expert">≈1628</span>
+        </div>
+    </div>
+</a>
+<a href="themes/matematika.html" class="theme-card" style="--card-accent: #b040d0" data-urls='["https://codeforces.com/contest/1529/problem/D", "https://codeforces.com/contest/450/problem/E", "https://codeforces.com/contest/2203/problem/D", "https://codeforces.com/contest/803/problem/F", "https://codeforces.com/contest/1499/problem/D", "https://codeforces.com/problemset/problem/2173/C", "https://codeforces.com/problemset/problem/230/B", "https://codeforces.com/problemset/problem/17/A", "https://codeforces.com/contest/154/problem/B", "https://codeforces.com/contest/546/problem/D", "https://codeforces.com/contest/222/problem/C", "https://codeforces.com/contest/1649/problem/D", "https://codeforces.com/contest/1561/problem/D2", "https://codeforces.com/contest/1225/problem/D", "https://codeforces.com/contest/1349/problem/A", "https://codeforces.com/contest/1154/problem/G", "https://codeforces.com/contest/776/problem/B", "https://codeforces.com/problemset/problem/1850/F", "https://codeforces.com/contest/2091/problem/E", "https://codeforces.com/contest/2154/problem/C1", "https://codeforces.com/contest/2167/problem/D", "https://codeforces.com/problemset/problem/2044/E", "https://codeforces.com/contest/987/problem/E", "https://codeforces.com/contest/2033/problem/E", "https://codeforces.com/contest/1768/problem/D", "https://codeforces.com/problemset/problem/1327/D", "https://codeforces.com/contest/612/problem/E", "https://codeforces.com/problemset/problem/1591/D", "https://codeforces.com/contest/911/problem/D", "https://codeforces.com/contest/300/problem/C", "https://codeforces.com/problemset/problem/1771/A", "https://codeforces.com/contest/2182/problem/C", "https://codeforces.com/problemset/problem/1957/C", "https://codeforces.com/contest/1475/problem/E", "https://codeforces.com/problemset/problem/2146/B", "https://codeforces.com/contest/1879/problem/C", "https://codeforces.com/contest/2163/problem/C", "https://codeforces.com/contest/2182/problem/D", "https://codeforces.com/problemset/problem/407/C", "https://codeforces.com/contest/2037/problem/G", "https://codeforces.com/contest/1750/problem/D", "https://codeforces.com/contest/2125/problem/C"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Математика</h3>
+            <span class="theme-card-badge">42 задачи</span>
+        </div>
+        <p class="theme-card-subtags">Делители, Решето Эратосфена, Перестановки, Принцип включения-исключения</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>3 подтемы</span>
+                <span>Рейтинг: 900 – 2500</span>
+            </div>
+            <span class="theme-card-avg rating-expert">≈1635</span>
+        </div>
+    </div>
+</a>
+<a href="themes/grafy.html" class="theme-card" style="--card-accent: #2db539" data-urls='["https://codeforces.com/contest/1093/problem/D", "https://codeforces.com/problemset/problem/1176/E", "https://codeforces.com/contest/1144/problem/F", "https://codeforces.com/contest/841/problem/D", "https://codeforces.com/contest/1805/problem/D", "https://codeforces.com/contest/378/problem/C", "https://codeforces.com/contest/862/problem/B", "https://codeforces.com/contest/813/problem/C", "https://codeforces.com/contest/24/problem/A", "https://codeforces.com/contest/727/problem/A", "https://codeforces.com/problemset/problem/580/C", "https://codeforces.com/contest/638/problem/C", "https://codeforces.com/contest/1676/problem/G", "https://codeforces.com/contest/242/problem/C", "https://codeforces.com/contest/769/problem/C", "https://codeforces.com/problemset/problem/1661/B", "https://codeforces.com/contest/1941/problem/D", "https://codeforces.com/contest/796/problem/D", "https://codeforces.com/contest/1037/problem/D", "https://codeforces.com/contest/1651/problem/D", "https://codeforces.com/contest/35/problem/C", "https://codeforces.com/contest/1272/problem/E", "https://codeforces.com/contest/1775/problem/D", "https://codeforces.com/problemset/problem/187/C", "https://codeforces.com/problemset/problem/510/C", "https://codeforces.com/problemset/problem/1931/F", "https://codeforces.com/contest/1385/problem/E", "https://codeforces.com/problemset/problem/2143/C", "https://codeforces.com/contest/427/problem/C", "https://codeforces.com/contest/999/problem/E", "https://codeforces.com/contest/505/problem/D", "https://codeforces.com/contest/22/problem/E", "https://codeforces.com/contest/894/problem/E", "https://codeforces.com/contest/1239/problem/D", "https://codeforces.com/contest/781/problem/C", "https://codeforces.com/contest/1891/problem/F", "https://codeforces.com/contest/916/problem/E", "https://codeforces.com/problemset/problem/620/E", "https://codeforces.com/contest/208/problem/E", "https://codeforces.com/problemset/problem/343/D", "https://codeforces.com/problemset/problem/877/E", "https://codeforces.com/contest/1916/problem/E", "https://codeforces.com/contest/508/problem/D", "https://codeforces.com/contest/723/problem/E", "https://codeforces.com/contest/2110/problem/E", "https://codeforces.com/problemset/problem/21/D", "https://codeforces.com/contest/1361/problem/C", "https://codeforces.com/contest/1981/problem/D", "https://codeforces.com/problemset/problem/788/B", "https://codeforces.com/contest/1634/problem/E", "https://codeforces.com/problemset/problem/652/E", "https://codeforces.com/contest/732/problem/F", "https://codeforces.com/contest/2132/problem/F", "https://codeforces.com/contest/1986/problem/F", "https://codeforces.com/problemset/problem/1000/E", "https://codeforces.com/problemset/problem/567/E", "https://codeforces.com/problemset/problem/59/E", "https://codeforces.com/problemset/problem/449/B", "https://codeforces.com/contest/2024/problem/D", "https://codeforces.com/problemset/problem/1433/G", "https://codeforces.com/contest/1810/problem/E", "https://codeforces.com/contest/2059/problem/D", "https://codeforces.com/problemset/problem/1473/E", "https://codeforces.com/problemset/problem/20/C", "https://codeforces.com/contest/1846/problem/G", "https://codeforces.com/contest/1915/problem/G", "https://codeforces.com/contest/2014/problem/E", "https://codeforces.com/problemset/problem/295/B", "https://codeforces.com/contest/25/problem/C", "https://codeforces.com/contest/33/problem/B", "https://codeforces.com/contest/2044/problem/G1", "https://codeforces.com/contest/1454/problem/E", "https://codeforces.com/contest/263/problem/D", "https://codeforces.com/contest/1635/problem/E", "https://codeforces.com/contest/1971/problem/H", "https://codeforces.com/contest/776/problem/D", "https://codeforces.com/contest/1475/problem/F", "https://codeforces.com/problemset/problem/1844/E", "https://codeforces.com/contest/1903/problem/F", "https://codeforces.com/problemset/problem/959/E", "https://codeforces.com/contest/1981/problem/E", "https://codeforces.com/contest/1095/problem/F", "https://codeforces.com/contest/1108/problem/F", "https://codeforces.com/problemset/problem/1408/E", "https://codeforces.com/contest/125/problem/E", "https://codeforces.com/contest/76/problem/A", "https://codeforces.com/problemset/problem/1857/G", "https://codeforces.com/problemset/problem/1513/D", "https://codeforces.com/contest/609/problem/E", "https://codeforces.com/contest/160/problem/D", "https://codeforces.com/problemset/problem/891/C", "https://codeforces.com/problemset/problem/744/A", "https://codeforces.com/contest/1213/problem/G", "https://codeforces.com/contest/1624/problem/G", "https://codeforces.com/contest/598/problem/D", "https://codeforces.com/contest/472/problem/D", "https://codeforces.com/problemset/problem/32/C"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Графы</h3>
+            <span class="theme-card-badge">97 задач</span>
+        </div>
+        <p class="theme-card-subtags">DFS, BFS, Топологическая сортировка...</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>11 подтем</span>
+                <span>Рейтинг: 1000 – 2600</span>
+            </div>
+            <span class="theme-card-avg rating-cm">≈1957</span>
+        </div>
+    </div>
+</a>
+<a href="themes/struktury-dannykh.html" class="theme-card" style="--card-accent: #ff8c00" data-urls='["https://codeforces.com/problemset/problem/1234/D", "https://codeforces.com/problemset/problem/339/D", "https://codeforces.com/contest/380/problem/C", "https://codeforces.com/contest/474/problem/F", "https://codeforces.com/contest/482/problem/B", "https://codeforces.com/contest/597/problem/C", "https://codeforces.com/problemset/problem/920/F", "https://codeforces.com/contest/396/problem/C", "https://codeforces.com/contest/301/problem/D", "https://codeforces.com/contest/383/problem/C", "https://codeforces.com/problemset/problem/914/D", "https://codeforces.com/contest/2000/problem/H", "https://codeforces.com/problemset/problem/2149/G", "https://codeforces.com/problemset/problem/1691/D", "https://codeforces.com/contest/2184/problem/G", "https://codeforces.com/contest/594/problem/D", "https://codeforces.com/contest/115/problem/E", "https://codeforces.com/contest/61/problem/E", "https://codeforces.com/contest/459/problem/D", "https://codeforces.com/contest/2185/problem/F", "https://codeforces.com/contest/145/problem/E", "https://codeforces.com/problemset/problem/242/E", "https://codeforces.com/problemset/problem/558/E", "https://codeforces.com/contest/1791/problem/F", "https://codeforces.com/contest/438/problem/D", "https://codeforces.com/problemset/problem/52/C", "https://codeforces.com/contest/516/problem/C", "https://codeforces.com/contest/1924/problem/B", "https://codeforces.com/contest/1916/problem/E", "https://codeforces.com/problemset/problem/343/D", "https://codeforces.com/contest/838/problem/B", "https://codeforces.com/contest/1179/problem/C", "https://codeforces.com/problemset/problem/817/F", "https://codeforces.com/contest/1555/problem/E", "https://codeforces.com/problemset/problem/1114/F", "https://codeforces.com/contest/446/problem/C", "https://codeforces.com/problemset/problem/1919/F1", "https://codeforces.com/contest/1132/problem/G", "https://codeforces.com/contest/2176/problem/E", "https://codeforces.com/contest/961/problem/E", "https://codeforces.com/contest/1788/problem/E", "https://codeforces.com/contest/2185/problem/H", "https://codeforces.com/contest/150/problem/B", "https://codeforces.com/contest/1559/problem/D1", "https://codeforces.com/problemset/problem/1167/C", "https://codeforces.com/contest/2184/problem/E", "https://codeforces.com/contest/468/problem/B", "https://codeforces.com/contest/1213/problem/G", "https://codeforces.com/contest/1624/problem/G", "https://codeforces.com/contest/766/problem/D", "https://codeforces.com/contest/915/problem/F", "https://codeforces.com/problemset/problem/990/G", "https://codeforces.com/contest/1559/problem/D2", "https://codeforces.com/contest/2117/problem/G", "https://codeforces.com/problemset/problem/187/C", "https://codeforces.com/contest/629/problem/E", "https://codeforces.com/contest/733/problem/F", "https://codeforces.com/contest/855/problem/D", "https://codeforces.com/contest/916/problem/E", "https://codeforces.com/contest/1843/problem/F2", "https://codeforces.com/contest/1175/problem/E", "https://codeforces.com/problemset/problem/2195/G", "https://codeforces.com/contest/372/problem/D", "https://codeforces.com/contest/1328/problem/E", "https://codeforces.com/contest/1702/problem/G2", "https://codeforces.com/contest/832/problem/D", "https://codeforces.com/contest/1142/problem/B", "https://codeforces.com/contest/208/problem/E", "https://codeforces.com/contest/191/problem/C", "https://codeforces.com/contest/466/problem/E", "https://codeforces.com/contest/519/problem/E", "https://codeforces.com/contest/587/problem/C", "https://codeforces.com/contest/609/problem/E", "https://codeforces.com/contest/2050/problem/F", "https://codeforces.com/problemset/problem/1878/E", "https://codeforces.com/contest/474/problem/F", "https://codeforces.com/contest/475/problem/D", "https://codeforces.com/problemset/problem/514/D", "https://codeforces.com/contest/675/problem/E", "https://codeforces.com/contest/863/problem/E", "https://codeforces.com/contest/1547/problem/F", "https://codeforces.com/contest/873/problem/E", "https://codeforces.com/contest/2069/problem/F", "https://codeforces.com/contest/2104/problem/G", "https://codeforces.com/contest/813/problem/F", "https://codeforces.com/contest/601/problem/E", "https://codeforces.com/contest/1386/problem/C", "https://codeforces.com/edu/course/2/lesson/7/3/practice/contest/289392/problem/C", "https://codeforces.com/contest/981/problem/E", "https://codeforces.com/contest/1140/problem/F", "https://codeforces.com/problemset/problem/1918/B", "https://codeforces.com/problemset/problem/1915/F", "https://codeforces.com/contest/1430/problem/E", "https://codeforces.com/contest/911/problem/D", "https://codeforces.com/contest/1526/problem/D", "https://codeforces.com/problemset/problem/5/C", "https://codeforces.com/problemset/problem/1726/C", "https://codeforces.com/problemset/problem/1023/C", "https://codeforces.com/contest/1153/problem/C", "https://codeforces.com/problemset/problem/612/C", "https://codeforces.com/problemset/problem/1837/D", "https://codeforces.com/contest/785/problem/D", "https://codeforces.com/problemset/problem/1015/F", "https://codeforces.com/problemset/problem/670/E", "https://codeforces.com/problemset/problem/223/A", "https://codeforces.com/contest/380/problem/C", "https://codeforces.com/contest/1976/problem/D", "https://codeforces.com/contest/2144/problem/F"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Структуры данных</h3>
+            <span class="theme-card-badge">108 задач</span>
+        </div>
+        <p class="theme-card-subtags">Дерево отрезков, Ленивое дерево отрезков, Дерево Фенвика...</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>9 подтем</span>
+                <span>Рейтинг: 900 – 2800</span>
+            </div>
+            <span class="theme-card-avg rating-cm">≈2054</span>
+        </div>
+    </div>
+</a>
+<a href="themes/dinamicheskoe-programmirovanie.html" class="theme-card" style="--card-accent: #ff4444" data-urls='["https://codeforces.com/contest/148/problem/E", "https://codeforces.com/contest/1637/problem/D", "https://codeforces.com/contest/1077/problem/F1", "https://codeforces.com/contest/1216/problem/F", "https://codeforces.com/contest/2176/problem/D", "https://codeforces.com/problemset/problem/2075/D", "https://codeforces.com/contest/2166/problem/D", "https://codeforces.com/contest/2144/problem/E1", "https://codeforces.com/contest/1675/problem/G", "https://codeforces.com/contest/1078/problem/B", "https://codeforces.com/problemset/problem/1132/E", "https://codeforces.com/problemset/problem/698/A", "https://codeforces.com/problemset/problem/366/C", "https://codeforces.com/contest/2193/problem/E", "https://codeforces.com/contest/2193/problem/F", "https://codeforces.com/problemset/problem/1881/E", "https://codeforces.com/contest/837/problem/D", "https://codeforces.com/contest/1989/problem/D", "https://codeforces.com/problemset/problem/506/A", "https://codeforces.com/contest/577/problem/B", "https://codeforces.com/contest/687/problem/C", "https://codeforces.com/contest/1446/problem/A", "https://codeforces.com/problemset/problem/1418/C", "https://codeforces.com/problemset/problem/1969/C", "https://codeforces.com/problemset/problem/1954/D", "https://codeforces.com/contest/2/problem/B", "https://codeforces.com/contest/742/problem/D", "https://codeforces.com/contest/2029/problem/C", "https://codeforces.com/contest/1994/problem/G", "https://codeforces.com/problemset/problem/2132/D", "https://codeforces.com/contest/1670/problem/F", "https://codeforces.com/problemset/problem/509/C", "https://codeforces.com/contest/1073/problem/E", "https://codeforces.com/contest/1036/problem/C", "https://codeforces.com/contest/2121/problem/E", "https://codeforces.com/problemset/problem/204/A", "https://codeforces.com/contest/11/problem/D", "https://codeforces.com/contest/1316/problem/E", "https://codeforces.com/contest/1950/problem/G", "https://codeforces.com/problemset/problem/580/D", "https://codeforces.com/problemset/problem/21/D", "https://codeforces.com/contest/895/problem/C", "https://codeforces.com/problemset/problem/8/C", "https://codeforces.com/problemset/problem/16/E", "https://codeforces.com/contest/453/problem/B", "https://codeforces.com/contest/678/problem/E", "https://codeforces.com/problemset/problem/757/D", "https://codeforces.com/problemset/problem/71/E", "https://codeforces.com/contest/762/problem/D", "https://codeforces.com/problemset/problem/413/D", "https://codeforces.com/contest/2140/problem/E1", "https://codeforces.com/problemset/problem/1238/E", "https://codeforces.com/contest/662/problem/C", "https://codeforces.com/contest/2140/problem/E2", "https://codeforces.com/contest/321/problem/E", "https://codeforces.com/contest/833/problem/B", "https://codeforces.com/contest/673/problem/E", "https://codeforces.com/contest/1527/problem/E", "https://codeforces.com/contest/868/problem/F", "https://codeforces.com/contest/1101/problem/F", "https://codeforces.com/problemset/problem/1601/C", "https://codeforces.com/contest/101/problem/E", "https://codeforces.com/problemset/problem/1304/D", "https://codeforces.com/problemset/problem/1682/C", "https://codeforces.com/contest/977/problem/F", "https://codeforces.com/problemset/problem/10/D", "https://codeforces.com/contest/76/problem/F", "https://codeforces.com/problemset/problem/486/E", "https://codeforces.com/problemset/gymProblem/101821/B", "https://codeforces.com/contest/2160/problem/G1", "https://codeforces.com/contest/673/problem/E", "https://codeforces.com/contest/319/problem/C", "https://codeforces.com/problemset/problem/660/F", "https://codeforces.com/contest/1083/problem/E", "https://codeforces.com/problemset/problem/631/E", "https://codeforces.com/contest/932/problem/F", "https://codeforces.com/contest/1627/problem/E", "https://codeforces.com/contest/1388/problem/E", "https://codeforces.com/contest/311/problem/B", "https://codeforces.com/problemset/problem/377/E", "https://codeforces.com/contest/91/problem/E"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Динамическое программирование</h3>
+            <span class="theme-card-badge">81 задача</span>
+        </div>
+        <p class="theme-card-subtags">Базовое динамическое программирование и Рюкзаки, Динамика по битмаскам, Разделяй и властвуй...</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>5 подтем</span>
+                <span>Рейтинг: 1300 – 2800</span>
+            </div>
+            <span class="theme-card-avg rating-cm">≈2090</span>
+        </div>
+    </div>
+</a>
+<a href="themes/stroki.html" class="theme-card" style="--card-accent: #03bdb6" data-urls='["https://codeforces.com/problemset/problem/471/D", "https://codeforces.com/problemset/problem/432/D", "https://codeforces.com/problemset/problem/535/D", "https://codeforces.com/problemset/problem/119/D", "https://codeforces.com/problemset/problem/126/B", "https://codeforces.com/problemset/problem/1968/G2", "https://codeforces.com/contest/2209/problem/E", "https://codeforces.com/problemset/problem/471/D", "https://codeforces.com/contest/2209/problem/E", "https://codeforces.com/contest/494/problem/B", "https://codeforces.com/problemset/problem/631/D", "https://codeforces.com/problemset/problem/119/D", "https://codeforces.com/problemset/problem/1015/F", "https://codeforces.com/contest/291/problem/E", "https://codeforces.com/contest/825/problem/F", "https://codeforces.com/problemset/problem/25/E", "https://codeforces.com/problemset/problem/1200/E", "https://codeforces.com/contest/2205/problem/E", "https://codeforces.com/problemset/problem/535/D", "https://codeforces.com/contest/2010/problem/C2", "https://codeforces.com/contest/808/problem/G", "https://codeforces.com/problemset/problem/346/B", "https://codeforces.com/problemset/problem/126/B", "https://codeforces.com/contest/625/problem/B", "https://codeforces.com/contest/19/problem/C", "https://codeforces.com/contest/7/problem/D", "https://codeforces.com/problemset/problem/1056/E", "https://codeforces.com/contest/825/problem/F", "https://codeforces.com/contest/835/problem/D", "https://codeforces.com/problemset/problem/25/E", "https://codeforces.com/problemset/problem/471/D", "https://codeforces.com/contest/1943/problem/B", "https://codeforces.com/problemset/problem/580/E", "https://codeforces.com/contest/716/problem/E", "https://codeforces.com/problemset/problem/126/B", "https://codeforces.com/problemset/problem/119/D", "https://codeforces.com/problemset/problem/154/C", "https://codeforces.com/problemset/problem/963/D", "https://codeforces.com/problemset/problem/1400/F", "https://codeforces.com/contest/2144/problem/F", "https://codeforces.com/contest/163/problem/E", "https://codeforces.com/contest/2050/problem/E", "https://codeforces.com/problemset/problem/463/D", "https://codeforces.com/contest/1326/problem/D2", "https://codeforces.com/contest/1943/problem/B", "https://codeforces.com/edu/course/2/lesson/2/4/practice/contest/269119/problem/A", "https://codeforces.com/edu/course/2/lesson/2/3/practice/contest/269118/problem/A", "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/C", "https://codeforces.com/problemset/problem/149/E", "https://codeforces.com/problemset/problem/963/D", "https://codeforces.com/contest/822/problem/E", "https://codeforces.com/contest/873/problem/F", "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/D", "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/E", "https://codeforces.com/edu/course/2/lesson/2/5/practice/contest/269656/problem/F", "https://codeforces.com/contest/1090/problem/J", "https://codeforces.com/problemset/problem/653/F", "https://codeforces.com/contest/1055/problem/F", "https://codeforces.com/contest/1851/problem/F", "https://codeforces.com/contest/1983/problem/F", "https://codeforces.com/contest/1980/problem/G", "https://codeforces.com/contest/1792/problem/D", "https://codeforces.com/problemset/problem/1902/E", "https://codeforces.com/contest/706/problem/D", "https://codeforces.com/problemset/problem/665/E", "https://codeforces.com/problemset/problem/282/E", "https://codeforces.com/contest/817/problem/E", "https://codeforces.com/contest/271/problem/D", "https://codeforces.com/contest/2093/problem/G", "https://codeforces.com/contest/842/problem/D", "https://codeforces.com/contest/456/problem/D", "https://codeforces.com/contest/965/problem/E", "https://codeforces.com/contest/1416/problem/C"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Строки</h3>
+            <span class="theme-card-badge">73 задачи</span>
+        </div>
+        <p class="theme-card-subtags">Z функция, Алгоритм Кнута-Морриса-Пратта и Префикс функция, Хеширование...</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>8 подтем</span>
+                <span>Рейтинг: 1200 – 2900</span>
+            </div>
+            <span class="theme-card-avg rating-master">≈2102</span>
+        </div>
+    </div>
+</a>
+<a href="themes/dekompozitsii-zadach.html" class="theme-card" style="--card-accent: #5b9aff" data-urls='["https://codeforces.com/problemset/problem/911/G", "https://codeforces.com/contest/2148/problem/F", "https://codeforces.com/contest/86/problem/D", "https://codeforces.com/contest/617/problem/E", "https://codeforces.com/contest/220/problem/B", "https://codeforces.com/contest/2014/problem/H", "https://codeforces.com/problemset/problem/375/D", "https://codeforces.com/contest/351/problem/D", "https://codeforces.com/problemset/problem/840/D", "https://codeforces.com/contest/877/problem/F", "https://codeforces.com/contest/577/problem/E", "https://codeforces.com/contest/220/problem/B", "https://codeforces.com/contest/677/problem/D", "https://codeforces.com/contest/2196/problem/B", "https://codeforces.com/contest/348/problem/C", "https://codeforces.com/problemset/problem/13/E", "https://codeforces.com/contest/1619/problem/H", "https://codeforces.com/contest/1580/problem/C", "https://codeforces.com/contest/2155/problem/F", "https://codeforces.com/contest/1582/problem/E", "https://codeforces.com/contest/1921/problem/F", "https://codeforces.com/contest/506/problem/D", "https://codeforces.com/contest/321/problem/C", "https://codeforces.com/problemset/problem/342/E", "https://codeforces.com/contest/914/problem/E", "https://codeforces.com/problemset/problem/766/E", "https://codeforces.com/contest/1387/problem/B2", "https://codeforces.com/contest/716/problem/E", "https://codeforces.com/contest/776/problem/F", "https://codeforces.com/contest/293/problem/E", "https://codeforces.com/contest/888/problem/E", "https://codeforces.com/contest/1006/problem/F", "https://codeforces.com/problemset/problem/585/D", "https://codeforces.com/contest/912/problem/E", "https://codeforces.com/problemset/problem/1767/E", "https://codeforces.com/problemset/problem/1257/F", "https://codeforces.com/contest/995/problem/E", "https://codeforces.com/problemset/problem/1000/C", "https://codeforces.com/contest/1950/problem/G", "https://codeforces.com/contest/540/problem/E", "https://codeforces.com/contest/863/problem/E"]'>
+    <div class="theme-card-accent"></div>
+    <div class="theme-card-body">
+        <div class="theme-card-header">
+            <h3 class="theme-card-title">Декомпозиции задач</h3>
+            <span class="theme-card-badge">41 задача</span>
+        </div>
+        <p class="theme-card-subtags">Базовая корневая декомопозиция, Алгоритм Мо, Разделение на тяжелые и легкие...</p>
+        <div class="theme-card-footer">
+            <div class="theme-card-meta">
+                <span>6 подтем</span>
+                <span>Рейтинг: 1600 – 2800</span>
+            </div>
+            <span class="theme-card-avg rating-master">≈2258</span>
+        </div>
+    </div>
+</a>
+                    <!-- THEMES_END -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+        </div>
+    </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
