@@ -1,4 +1,4 @@
-/* --- Reset & Variables --- */
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -6,28 +6,23 @@
 }
 
 :root {
-    /* Backgrounds */
     --bg-primary: #0b0d17;
     --bg-secondary: #111425;
     --bg-surface: #161a2c;
     --bg-surface-hover: #1e2340;
     --bg-elevated: #1c2038;
 
-    /* Borders */
     --border: #252a40;
     --border-light: #2e3450;
 
-    /* Text */
     --text-primary: #e8eaef;
     --text-secondary: #9499b3;
     --text-muted: #5d6280;
 
-    /* Accent */
     --accent: #5b9aff;
     --accent-hover: #7ab0ff;
     --accent-dim: #3d6fc2;
 
-    /* Codeforces Rating Colors */
     --rating-newbie: #808080;
     --rating-pupil: #00aa00;
     --rating-specialist: #03bdb6;
@@ -36,17 +31,13 @@
     --rating-master: #ff8c00;
     --rating-gm: #ff4444;
 
-    /* Card accent (overridden inline) */
     --card-accent: var(--accent);
 
-    /* Fonts */
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
-    /* Layout */
     --header-height: 64px;
 
-    /* Transitions */
     --transition: 0.2s ease;
     --transition-slow: 0.35s ease;
 }
@@ -76,8 +67,6 @@ a:hover {
     color: var(--accent-hover);
 }
 
-
-/* --- Layout --- */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -86,7 +75,6 @@ a:hover {
 }
 
 
-/* --- Header --- */
 .header {
     position: sticky;
     top: 0;
@@ -154,8 +142,6 @@ a:hover {
 }
 
 
-/* --- CF Handle Widget (упрощённый) --- */
-/* --- CF Handle Widget --- */
 .handle-widget {
     margin-left: auto;
 }
@@ -242,7 +228,6 @@ a:hover {
 }
 
 
-/* --- Solved task badges on cards --- */
 .card-solved-badge {
     display: inline-flex;
     align-items: center;
@@ -273,7 +258,6 @@ a:hover {
 }
 
 
-/* --- Solved rows on theme pages --- */
 tr.task-solved {
     background: rgba(0, 170, 0, 0.06) !important;
 }
@@ -302,7 +286,6 @@ tr.task-solved:hover {
     vertical-align: middle;
 }
 
-/* Счётчик решённых в подтеме */
 .subtag-solved-badge {
     font-family: var(--font-mono);
     font-size: 0.78rem;
@@ -322,7 +305,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Responsive handle widget --- */
 @media (max-width: 768px) {
     .handle-input {
         width: 110px;
@@ -330,7 +312,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Hero --- */
 .hero {
     padding: 80px 0 60px;
     text-align: center;
@@ -364,7 +345,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Stats --- */
 .stats {
     display: inline-flex;
     align-items: center;
@@ -404,7 +384,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Section --- */
 .themes-section {
     padding: 20px 0 80px;
 }
@@ -418,7 +397,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Theme Cards Grid --- */
 .themes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -519,7 +497,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Theme Page --- */
 .breadcrumbs {
     padding: 24px 0 8px;
     font-size: 0.9rem;
@@ -560,7 +537,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Subtag Navigation --- */
 .subtag-nav {
     display: flex;
     flex-wrap: wrap;
@@ -599,7 +575,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Subtag Sections --- */
 .subtag-section {
     margin-bottom: 48px;
 }
@@ -625,7 +600,6 @@ tr.task-solved:hover {
 }
 
 
-/* --- Tasks Table --- */
 .tasks-table {
     width: 100%;
     border-collapse: collapse;
@@ -680,8 +654,6 @@ tr.task-solved:hover {
     font-size: 0.9rem;
 }
 
-
-/* --- Rating Colors (Codeforces) --- */
 .rating-newbie      { color: var(--rating-newbie); }
 .rating-pupil       { color: var(--rating-pupil); }
 .rating-specialist  { color: var(--rating-specialist); }
@@ -691,7 +663,6 @@ tr.task-solved:hover {
 .rating-gm          { color: var(--rating-gm); }
 
 
-/* --- Footer --- */
 .footer {
     margin-top: auto;
     padding: 40px 0;
@@ -721,8 +692,6 @@ tr.task-solved:hover {
     color: var(--text-muted);
 }
 
-
-/* --- Responsive --- */
 @media (max-width: 768px) {
     .hero {
         padding: 56px 0 40px;
@@ -795,7 +764,6 @@ tr.task-solved:hover {
         padding: 18px;
     }
 }
-/* --- Scroll to top button --- */
 .scroll-top-btn {
     position: fixed;
     bottom: 30px;

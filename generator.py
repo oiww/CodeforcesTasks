@@ -1,17 +1,7 @@
 #!/usr/bin/env python3
-"""
-CFTasks Generator
-Генерирует страницы тем и заполняет главную страницу из tasks.json.
-
-Использование:
-    python generator.py
-"""
-
 import json
 import os
 import re
-
-# ── Транслитерация ────────────────────────────────────────────────────
 
 TRANSLIT = {
     'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'yo',
@@ -21,12 +11,10 @@ TRANSLIT = {
     'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu', 'я': 'ya',
 }
 
-# Цвета акцентных полосок для карточек тем
 CARD_COLORS = ['#5b9aff', '#b040d0', '#2db539', '#ff8c00', '#ff4444', '#03bdb6']
 
 
 def slugify(text):
-    """Транслитерация и создание URL-slug из текста."""
     result = []
     for char in text.lower():
         if char in TRANSLIT:
@@ -41,7 +29,6 @@ def slugify(text):
 
 
 def get_rating_class(rating):
-    """Возвращает CSS-класс для рейтинга в стиле Codeforces."""
     if rating < 1200: return 'rating-newbie'
     if rating < 1400: return 'rating-pupil'
     if rating < 1600: return 'rating-specialist'
@@ -52,10 +39,6 @@ def get_rating_class(rating):
 
 
 def pluralize(n, forms):
-    """
-    Склонение существительного по числу.
-    forms = ('задача', 'задачи', 'задач')
-    """
     if n % 10 == 1 and n % 100 != 11:
         return f'{n} {forms[0]}'
     elif 2 <= n % 10 <= 4 and (n % 100 < 10 or n % 100 >= 20):
@@ -68,42 +51,34 @@ TASK_FORMS = ('задача', 'задачи', 'задач')
 SUBTAG_FORMS = ('подтема', 'подтемы', 'подтем')
 
 
-# ── Генерация страницы темы ───────────────────────────────────────────
 
 def generate_theme_page(tag_name, subtags, theme_template):
-    """Генерирует полный HTML страницы темы."""
     total_tasks = sum(len(s['tasks']) for s in subtags.values())
     stats_text = f'{pluralize(len(subtags), SUBTAG_FORMS)} · {pluralize(total_tasks, TASK_FORMS)}'
 
-    # Навигация по подтемам
     nav_items = []
     for st_name, st_data in subtags.items():
         st_slug = slugify(st_name)
         count = len(st_data['tasks'])
-        if count > 0:  # Показываем только непустые подтемы
+        if count > 0:
             nav_items.append(
                 f'                <a href="#{st_slug}" class="subtag-nav-item">'
                 f'{st_name} <span class="subtag-nav-count">{count}</span></a>'
             )
 
-    # Секции подтем
     sections = []
     for st_name, st_data in subtags.items():
         st_slug = slugify(st_name)
         tasks = sorted(st_data['tasks'], key=lambda t: t.get('rating', 0))
-
-        # Пропускаем пустые подтемы
         if len(tasks) == 0:
             continue
 
         rows = []
         for i, task in enumerate(tasks, 1):
-            # Проверяем, что задача содержит все необходимые поля
             if not task.get('name') or not task.get('url'):
                 continue
 
             rc = get_rating_class(task['rating'])
-            # data-url используется JS для сравнения с решёнными задачами
             rows.append(
                 f'                        <tr data-url="{task["url"]}">\n'
                 f'                            <td class="task-num">{i}</td>\n'
@@ -136,7 +111,6 @@ def generate_theme_page(tag_name, subtags, theme_template):
         )
         sections.append(section)
 
-    # Сборка страницы
     html = theme_template
     html = html.replace('%%TITLE%%', tag_name)
     html = html.replace('%%STATS_TEXT%%', stats_text)
@@ -146,13 +120,10 @@ def generate_theme_page(tag_name, subtags, theme_template):
     return html
 
 
-# ── Основная функция ──────────────────────────────────────────────────
 
 def main():
-    """Читает данные, генерирует карточки и страницы тем."""
     print('🔧 CFTasks Generator\n')
 
-    # Чтение файлов
     with open('tasks.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -169,7 +140,6 @@ def main():
 
     tags = data['tags']
 
-    # Сначала собираем информацию о всех темах
     themes_info = []
     total_tasks = 0
     total_subtags = 0
@@ -178,7 +148,6 @@ def main():
         subtags = tag_data['subtags']
         slug = slugify(tag_name)
 
-        # Собираем все задачи темы
         all_tasks = []
         for st_data in subtags.values():
             for task in st_data.get('tasks', []):
@@ -190,7 +159,6 @@ def main():
         total_tasks += task_count
         total_subtags += subtag_count
 
-        # Вычисляем статистику рейтингов
         if all_tasks:
             ratings = [t['rating'] for t in all_tasks]
             min_r, max_r = min(ratings), max(ratings)
@@ -208,7 +176,6 @@ def main():
             'max_r': max_r
         })
 
-    # Сортируем темы по среднему рейтингу
     themes_info.sort(key=lambda x: x['avg_rating'])
 
     cards_html = []
@@ -234,13 +201,11 @@ def main():
 
         avg_rating_class = get_rating_class(avg_r) if avg_r > 0 else 'rating-newbie'
 
-        # Список подтем с задачами
+
         active_subtags = [name for name, st in subtags.items() if len(st.get('tasks', [])) > 0]
 
-        # JSON-массив всех URL задач темы
         urls_json = json.dumps([t['url'] for t in all_tasks], ensure_ascii=False)
 
-        # Заполняем шаблон карточки
         card = card_template
         card = card.replace('{{theme_name}}', tag_name)
         card = card.replace('{{theme_slug}}', slug)
@@ -264,9 +229,7 @@ def main():
         with open(theme_path, 'w', encoding='utf-8') as f:
             f.write(theme_html)
 
-    # ── Обновление index.html ──
 
-    # Вставка карточек тем
     cards_content = '\n'.join(cards_html)
     index_html = re.sub(
         r'(<!-- THEMES_START -->).*?(<!-- THEMES_END -->)',
@@ -275,7 +238,6 @@ def main():
         flags=re.DOTALL
     )
 
-    # Обновление статистики - только задачи
     index_html = re.sub(
         r'<div class="stat-item">\s*<span class="stat-number" id="stat-themes">[^<]*</span>\s*<span class="stat-label">Тем</span>\s*</div>',
         '',
